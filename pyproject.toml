@@ -3,12 +3,13 @@ name = "streamlit-dev"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
     "matplotlib>=3.10.8",
-    "streamlit>=0.1.0",
+    "numpy>=2.3.5",
+    "pandas < 3.0.0",
+    "streamlit>=1.53.0",
     "yfinance>=1.2.0",
 ]
 
-[tool.uv]
-package = false
+
