@@ -3,8 +3,27 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 import streamlit as st
 
-aapl = yf.Ticker('AAPL')
 days = 20
-hist = aapl.history(period=f'{days}d')
+tickers = {
+    'apple':'AAPL',
+    'facebook':'FB',
+    'google':'GOOGL',
+    'microsoft':'MSFT',
+    'netflix':'NFLX',
+    'amazon':'AMZN'
+}
 
-st.write(hist)
+def get_data(days, tickers):
+    df = pd.DataFrame()
+    for company in tickers.keys():
+        tkr = yf.Ticker(tickers[company])
+        hist = tkr.history(period=f'{days}d')
+        hist = hist.index.strftime('%d %B %Y')
+        hist = hist[['Close']]
+        hist.columns = [company]
+        hist = hist.T
+        hist.index.name = 'Name'
+        df = pd.cancat([df, hist])
+    return df
+
+st.write(df)
