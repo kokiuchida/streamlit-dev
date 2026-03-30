@@ -59,29 +59,24 @@ companies = st.multiselect(
 
 if not companies:
     st.error('少なくとも1社は選んでください')
+else:
+    data = df.loc[companies]
+    st.write("### 株価(USD)", data.sort_index())
+    data.T.reset_index()
+    data = pd.melt(data, id_vars=['Date']).rename(
+        columns={'value': 'Stock Prices(USD)'}
+    )
 
-companies = ['apple', 'facebook']
-data = df.loc[companies]
-data.sort_index()
-data.T.reset_index()
-
-data = pd.melt(data, id_vars=['Date']).rename(
-    columns={'value': 'Stock Prices(USD)'}
-)
-
-
-
-chart = (
+    chart = (
     alt.Chart(data)
     .mark_line(opacity=0.8, clip=True)
     .encode(
         x="Date:T",
         y=alt.Y("Stock Prices(USD):Q", stack=None, scale=alt.Scale(domain=[ymin,ymax])),
         color='Name:N'
+        )
     )
-)
-
-
+    st.altair_chart(chart, use_container_width=True)
 
 
 
