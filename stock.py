@@ -27,3 +27,12 @@ def get_data(days, tickers):
     return df
 
 st.write(df)
+
+
+
+def get_info(tickers):
+    for company in tickers.keys():
+        info = company.info
+        action = company.actions
+        company.dividends.plot()
+        company.actions['Stock Splits'].plot()
