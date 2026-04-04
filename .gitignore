@@ -1,0 +1,8 @@
+# API credentials (DO NOT COMMIT)
+**/credentials/
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
