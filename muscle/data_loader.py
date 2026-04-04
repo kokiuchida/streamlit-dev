@@ -9,6 +9,7 @@ import re
 from pathlib import Path
 
 import pandas as pd
+import streamlit as st
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
@@ -34,9 +35,15 @@ def extract_file_id(url_or_id: str) -> str:
 
 
 def _get_drive_service():
-    creds = service_account.Credentials.from_service_account_file(
-        str(CREDENTIALS_PATH), scopes=SCOPES
-    )
+    try:
+        creds = service_account.Credentials.from_service_account_info(
+            dict(st.secrets["gcp_service_account"]),
+            scopes=SCOPES,
+        )
+    except Exception:
+        creds = service_account.Credentials.from_service_account_file(
+            str(CREDENTIALS_PATH), scopes=SCOPES
+        )
     return build("drive", "v3", credentials=creds)
 
 
@@ -79,6 +86,10 @@ def load_muscle_data(file_id: str, sheet_name: str = "workout") -> pd.DataFrame:
 
 def get_file_id_from_env() -> str:
     """環境変数 GDRIVE_FILE_ID からファイルIDを取得する。"""
+    try:
+        return st.secrets["GDRIVE_FILE_ID"]
+    except Exception:
+        pass
     file_id = os.getenv("GDRIVE_FILE_ID", "")
     if not file_id:
         raise ValueError(
