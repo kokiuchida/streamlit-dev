@@ -13,4 +13,9 @@ dependencies = [
     "yfinance>=1.2.0",
 ]
 
+[tool.uv.workspace]
+members = [
+    "git_apps",
+]
+
 
