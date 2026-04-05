@@ -1,2702 +1,2702 @@
 [
   {
-    "id": 1,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "1手詰み：銀で詰める",
-    "sfen": "3k5/4g4/4S4/9/9/9/9/9/9 b S2r2b3g3s4n4l17p 1",
-    "correct_move": "S*4a",
-    "explanation": "4一に銀を打つと詰みになります。"
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "kp7/1R7/9/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば詰みです。歩が8一を塞ぎ、飛車が9二を守っているため、玉の逃げ場がありません。",
+    "id": 1
   },
   {
-    "id": 2,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "1手詰み：金打ち",
-    "sfen": "4k4/9/4G4/9/9/9/9/9/9 b G2r2b2g3s4n4l18p 1",
-    "correct_move": "G*4b",
-    "explanation": "4二に金を打つと詰みになります。"
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "kl7/1R7/9/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば詰みです。香が8一を塞ぎ、飛車が9二を守っているため、玉の逃げ場がありません。",
+    "id": 2
   },
   {
-    "id": 3,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "1手詰み：飛車の利き",
-    "sfen": "k8/9/R8/9/9/9/9/9/9 b 2b4g4s4n4l18p 1",
-    "correct_move": "1c1a",
-    "explanation": "飛車を1九から1一に走れば詰みです。"
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "kn7/1R7/9/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば詰みです。桂が8一を塞ぎ、飛車が9二を守っているため、玉の逃げ場がありません。",
+    "id": 3
   },
   {
-    "id": 4,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "2手詰み：金と銀の連携",
-    "sfen": "4k4/4g4/4G4/9/9/9/9/9/9 b S2r2b2g3s4n4l17p 1",
-    "correct_move": "S*5b",
-    "explanation": "5二に銀を打ち、次の一手で詰みに持ち込みます。"
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7pk/7R1/9/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば詰みです。歩が2一を塞ぎ、飛車が2二を守るため逃げ場なし。",
+    "id": 4
   },
   {
-    "id": 5,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "歩の突き捨て",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて戦いを始める基本の一手です。"
-  },
-  {
-    "id": 6,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "飛車先の歩を交換",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/2P6/PP1PPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "2h7h",
-    "explanation": "飛車を7八に移動させ、飛車先の歩交換を目指します。"
-  },
-  {
-    "id": 7,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "角交換後の対応",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*7g",
-    "explanation": "7七に角を打ち、飛車を守ります。"
-  },
-  {
-    "id": 8,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "桂馬の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSN1 b L 1",
-    "correct_move": "9i9h",
-    "explanation": "端の香車を上げ、桂馬の活用を図ります。"
-  },
-  {
-    "id": 9,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "1手詰み：馬で詰める",
-    "sfen": "k8/9/2B6/9/9/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "3c1a",
-    "explanation": "角が成って馬を作り、詰みです。"
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7lk/7R1/9/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば詰みです。香が2一を塞ぎ、飛車が2二を守るため逃げ場なし。",
+    "id": 5
   },
   {
-    "id": 10,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "棒銀の開始",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i3h",
-    "explanation": "銀を3八に上がって棒銀の準備をします。"
-  },
-  {
-    "id": 11,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "居飛車対振り飛車：角道を止める",
-    "sfen": "lnsgkgsnl/1r5b1/p1ppppppp/1p7/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "8h7g",
-    "explanation": "角を7七に引いて角道を止め、飛車を守ります。"
-  },
-  {
-    "id": 12,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "と金作り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL w - 2",
-    "correct_move": "3c3d",
-    "explanation": "歩を3四に突いて戦いを始めます。"
-  },
-  {
-    "id": 13,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "金と飛車の詰み",
-    "sfen": "k8/1G7/9/9/9/9/9/9/9 b R2b2g4s4n4l18p 1",
-    "correct_move": "R*1a",
-    "explanation": "1一に飛車を打てば詰みです。"
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7nk/7R1/9/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば詰みです。桂が2一を塞ぎ、飛車が2二を守るため逃げ場なし。",
+    "id": 6
   },
   {
-    "id": 14,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "矢倉の組み方",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i6h",
-    "explanation": "金を6八に上がって矢倉の土台を作ります。"
-  },
-  {
-    "id": 15,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "四間飛車対策",
-    "sfen": "lnsgk1snl/1r4gb1/pppppp1pp/6p2/9/2P6/PP1PPPPPP/1BG4R1/LNSGK1SNL b - 7",
-    "correct_move": "2h4h",
-    "explanation": "飛車を4八に移動させ、4筋の攻めを強化します。"
-  },
-  {
-    "id": 16,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "歩を成る",
-    "sfen": "lnsgkgsnl/1r5b1/pp1pppppp/2p6/9/2P6/PP1PPPPPP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2g2f",
-    "explanation": "2六歩と突いて飛車先を開けます。"
-  },
-  {
-    "id": 17,
     "difficulty": "1級",
     "category": "詰み",
-    "description": "角の詰み",
-    "sfen": "3k5/3p5/3B5/9/9/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "6d4b",
-    "explanation": "角で4二に斜めに走り詰みです。"
-  },
-  {
-    "id": 18,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "端攻めの手筋",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "9g9f",
-    "explanation": "端歩を9六に突き攻めの準備をします。"
-  },
-  {
-    "id": 19,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "金の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i5h",
-    "explanation": "金を5八に上げて陣形を整えます。"
-  },
-  {
-    "id": 20,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "1手詰み：桂馬",
-    "sfen": "4k4/6N2/9/9/9/9/9/9/9 b 2r2b4g4s3n4l18p 1",
-    "correct_move": "3c3a",
-    "explanation": "桂馬を跳ねて詰みます。"
-  },
-  {
-    "id": 21,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "角の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h3c",
-    "explanation": "角で3三角と打ち込む手筋。"
-  },
-  {
-    "id": 22,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "玉の囲い",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に引いて囲いの準備をします。"
-  },
-  {
-    "id": 23,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "飛車の転換",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h2f",
-    "explanation": "飛車を2六に上がり、飛車先を突破する準備です。"
-  },
-  {
-    "id": 24,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "2手詰み：飛車と金",
-    "sfen": "k8/9/R8/9/G8/9/9/9/9 b 2b2g4s4n4l18p 1",
-    "correct_move": "1c1b",
-    "explanation": "飛車を1二に動かし、次の金打ちで詰み。"
-  },
-  {
-    "id": 25,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "歩の突き捨て２",
-    "sfen": "lnsgkgsnl/1r5b1/p1ppppppp/1p7/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突き戦いを開始します。"
-  },
-  {
-    "id": 26,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "銀の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に上がり中央を厚くします。"
-  },
-  {
-    "id": 27,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "飛車先を守る",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h3h",
-    "explanation": "飛車を3八に引いて飛車先を守ります。"
-  },
-  {
-    "id": 28,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "角成り詰み",
-    "sfen": "k8/1p7/B8/9/9/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "9c7a",
-    "explanation": "角を斜めに走り成って詰みます。"
-  },
-  {
-    "id": 29,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "飛車の押さえ込み",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "まず7六歩と突くのが最善手です。"
-  },
-  {
-    "id": 30,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "桂馬跳ね",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8i7g",
-    "explanation": "桂馬を7七に跳ねて攻めに参加させます。"
-  },
-  {
-    "id": 31,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "金打ち詰み",
-    "sfen": "4k4/9/4G4/4G4/9/9/9/9/9 b 2r2b2g4s4n4l18p 1",
-    "correct_move": "5b5a",
-    "explanation": "5一に金を打てば詰みです。"
-  },
-  {
-    "id": 32,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "中央突破",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/4P4/PPPP1PPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "5g5f",
-    "explanation": "5六歩と突いてさらに中央を突破します。"
-  },
-  {
-    "id": 33,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "角引き",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h7g",
-    "explanation": "角を7七に引いて守りを固めます。"
-  },
-  {
-    "id": 34,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "歩で守る",
-    "sfen": "lnsgkgsnl/1r5b1/pp1pppppp/2p6/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "3g3f",
-    "explanation": "3六歩と突いて相手の歩に対応します。"
-  },
-  {
-    "id": 35,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "銀打ち詰み",
-    "sfen": "k8/p8/1S7/9/9/9/9/9/9 b 2r2b4g3s4n4l17p 1",
-    "correct_move": "9b9a",
-    "explanation": "銀を9一に打てば詰みです。"
-  },
-  {
-    "id": 36,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "角交換振り飛車",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h7h",
-    "explanation": "飛車を7八に移動させ振り飛車の準備をします。"
-  },
-  {
-    "id": 37,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "玉を上がる",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i6h",
-    "explanation": "玉を6八に上げて囲いの準備です。"
-  },
-  {
-    "id": 38,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "角道オープン",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて角道を開けます。"
-  },
-  {
-    "id": 39,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "飛車の斜め利き",
-    "sfen": "k8/9/9/9/9/9/9/9/R8 b 2b4g4s4n4l18p 1",
-    "correct_move": "9i9a",
-    "explanation": "飛車で縦に走り1手詰めです。"
-  },
-  {
-    "id": 40,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "端歩攻め",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/P8/1PPPPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "9g9f",
-    "explanation": "さらに9六歩と端を攻めます。"
-  },
-  {
-    "id": 41,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "囲いの完成",
-    "sfen": "ln1gk2nl/1r1s1g1b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に上げて美濃囲いを完成させます。"
-  },
-  {
-    "id": 42,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "銀を引く",
-    "sfen": "lnsgk1snl/1r4gb1/pppppp1pp/6p2/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "3h4g",
-    "explanation": "銀を4七に引いて守りを固めます。"
-  },
-  {
-    "id": 43,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "1手詰み：飛車直射",
-    "sfen": "k8/9/9/9/9/9/9/9/8R b 2b4g4s4n4l18p 1",
-    "correct_move": "1i1a",
-    "explanation": "飛車で1一に走り詰みです。"
-  },
-  {
-    "id": 44,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "棒銀で突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h2g",
-    "explanation": "銀を2七に進めて棒銀を狙います。"
-  },
-  {
-    "id": 45,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "矢倉囲い完成",
-    "sfen": "ln1gk2nl/1r2sg1b1/ppppppppp/9/9/9/PPPPPPPPP/1B1GS2R1/LN2KGSNL b - 1",
-    "correct_move": "5i5h",
-    "explanation": "玉を5八に上げて矢倉囲いを完成させます。"
-  },
-  {
-    "id": 46,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "歩の垂らし",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5g5f",
-    "explanation": "5六歩と突いて中央の主導権を握ります。"
-  },
-  {
-    "id": 47,
-    "difficulty": "1級",
-    "category": "詰み",
-    "description": "2手詰み：馬と金",
-    "sfen": "k8/1B7/9/9/G8/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "8b6d",
-    "explanation": "角で成って馬を作り、次に金で詰めます。"
-  },
-  {
-    "id": 48,
-    "difficulty": "1級",
-    "category": "攻め",
-    "description": "2筋突破",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2g2f",
-    "explanation": "2六歩と突いて飛車先を突破します。"
-  },
-  {
-    "id": 49,
-    "difficulty": "1級",
-    "category": "守り",
-    "description": "角頭を守る",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL w - 2",
-    "correct_move": "8c8d",
-    "explanation": "8四歩と突いて飛車先の歩を守ります。"
-  },
-  {
-    "id": 50,
-    "difficulty": "1級",
-    "category": "手筋",
-    "description": "銀の引き付け",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i6h",
-    "explanation": "銀（金）を6八に引き付けて囲いを整備します。"
-  },
-  {
-    "id": 51,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "3手詰み：金と銀",
-    "sfen": "k8/1G7/2S6/9/9/9/9/9/9 b 2r2b2g3s4n4l18p 1",
-    "correct_move": "2b1a",
-    "explanation": "2二に銀を打ち、次の金打ちで詰みます。"
-  },
-  {
-    "id": 52,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "3手詰み：飛車と角",
-    "sfen": "k8/9/2R6/9/9/9/9/9/9 b 2b2g4s4n4l18p 1",
-    "correct_move": "3c1c",
-    "explanation": "飛車を1三に走り詰みへ。"
-  },
-  {
-    "id": 53,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "銀の割り打ち",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "3i3h",
-    "explanation": "銀を3八に上げて攻めの準備をします。"
-  },
-  {
-    "id": 54,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "角道活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h2b",
-    "explanation": "角で2二角成と角を打ち込みます。"
-  },
-  {
-    "id": 55,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "美濃囲い強化",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "4h3h",
-    "explanation": "金を3八に引いて美濃を固めます。"
-  },
-  {
-    "id": 56,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "桂馬の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8i7g",
-    "explanation": "桂を7七に跳ねて攻めに参加します。"
-  },
-  {
-    "id": 57,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "5手詰み：金攻め",
-    "sfen": "k8/2G6/9/1G7/9/9/9/9/9 b 2r2b2g4s4n4l18p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を打ち連続王手で詰めます。"
-  },
-  {
-    "id": 58,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "飛車の成り込み",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に進め敵陣に迫ります。"
-  },
-  {
-    "id": 59,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "玉を囲う",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に移動させて囲いを始めます。"
-  },
-  {
-    "id": 60,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "端攻めの手筋",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9g9f",
-    "explanation": "9六歩と端攻めを開始します。"
-  },
-  {
-    "id": 61,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "3手詰み：銀と角",
-    "sfen": "k8/pB7/9/9/9/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "8b8a",
-    "explanation": "角成で詰みを狙います。"
-  },
-  {
-    "id": 62,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "棒銀突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "2g2f",
-    "explanation": "2六歩と突いて棒銀の準備を進めます。"
-  },
-  {
-    "id": 63,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "駒組みの工夫",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6i7h",
-    "explanation": "金を7八に上げて玉を守ります。"
-  },
-  {
-    "id": 64,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "と金作り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/2P6/PP1PPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "2g2f",
-    "explanation": "さらに2六歩と突いて突破を図ります。"
-  },
-  {
-    "id": 65,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "と金詰み",
-    "sfen": "k8/1+P7/9/9/9/9/9/9/9 b 2r2b4g4s4n4l18p 1",
-    "correct_move": "8b8a",
-    "explanation": "と金を8一に進めて詰みです。"
-  },
-  {
-    "id": 66,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "角の覗き",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に進めて飛車を牽制します。"
-  },
-  {
-    "id": 67,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "銀冠の組み方",
-    "sfen": "lnsgk1snl/1r4gb1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN1SK2NL b - 7",
-    "correct_move": "5h6g",
-    "explanation": "銀を6七に引いて銀冠を作ります。"
-  },
-  {
-    "id": 68,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "歩の垂らし２",
-    "sfen": "lnsgkgsnl/1r5b1/pp1pppppp/2p6/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "2g2f",
-    "explanation": "2六歩と突いて縦の攻めを強化します。"
-  },
-  {
-    "id": 69,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "3手詰み：桂成",
-    "sfen": "k8/2N6/9/9/9/9/9/9/9 b 2r2b4g4s3n4l18p 1",
-    "correct_move": "3b1a",
-    "explanation": "桂馬を成って詰みに近づきます。"
-  },
-  {
-    "id": 70,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "飛車先突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2e",
-    "explanation": "飛車を2五に上げて敵陣に迫ります。"
-  },
-  {
-    "id": 71,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "金矢倉の完成",
-    "sfen": "ln1gk2nl/1r2sg1b1/ppppppppp/9/9/9/PPPPPPPPP/1B1GS2R1/LN1GKGSNL b - 1",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いて矢倉を完成させます。"
-  },
-  {
-    "id": 72,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "角の活用２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて角道を開けます。"
-  },
-  {
-    "id": 73,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "5手詰み：追い詰め",
-    "sfen": "k8/1p7/S8/G8/9/9/9/9/9 b 2r2b2g3s4n4l17p 1",
-    "correct_move": "9c8b",
-    "explanation": "銀を進め王手をかけます。"
-  },
-  {
-    "id": 74,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "中央制圧",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/4P4/9/PPPP1PPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "4i5h",
-    "explanation": "金を5八に引いて中央を強化します。"
-  },
-  {
-    "id": 75,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "穴熊の組み方",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4i",
-    "explanation": "まず玉を4九に引いて穴熊の準備を始めます。"
-  },
-  {
-    "id": 76,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "角打ちの効果",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*3c",
-    "explanation": "3三に角を打って飛車の働きを助けます。"
-  },
-  {
-    "id": 77,
-    "difficulty": "初段",
-    "category": "詰み",
-    "description": "金の活用詰み",
-    "sfen": "4k4/4p4/4G4/9/9/9/9/9/9 b 2r2b2g4s4n4l17p 1",
-    "correct_move": "5c5b",
-    "explanation": "金を5二に進めて詰みへ。"
-  },
-  {
-    "id": 78,
-    "difficulty": "初段",
-    "category": "攻め",
-    "description": "2枚飛車",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h7h",
-    "explanation": "飛車を7八に振って振り飛車の準備。"
-  },
-  {
-    "id": 79,
-    "difficulty": "初段",
-    "category": "守り",
-    "description": "銀立ち",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に上げて守りを固めます。"
-  },
-  {
-    "id": 80,
-    "difficulty": "初段",
-    "category": "手筋",
-    "description": "飛車先の制圧",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2g2f",
-    "explanation": "まず2六歩と突くのが最善手です。"
-  },
-  {
-    "id": 81,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "7手詰み：追い詰め",
-    "sfen": "k8/1p7/9/G8/9/9/9/9/9 b R2b2g4s4n4l17p 1",
-    "correct_move": "9c8c",
-    "explanation": "飛車打ちから連続王手で詰めます。"
-  },
-  {
-    "id": 82,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "5手詰み：飛車と角",
-    "sfen": "k8/9/2R6/2B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "3c1c",
-    "explanation": "飛車を走り角と連携して詰めます。"
-  },
-  {
-    "id": 83,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "桂の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2i3g",
-    "explanation": "桂を3七に跳ねて攻撃力を高めます。"
-  },
-  {
-    "id": 84,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "竜の作り方",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に進め成り込みます。"
-  },
-  {
-    "id": 85,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "矢倉の崩し方",
-    "sfen": "ln1gkgsnl/1r4sb1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B1G3R1/LNSSK2NL b - 9",
-    "correct_move": "4i3i",
-    "explanation": "玉を3九に引いて守りを固めます。"
-  },
-  {
-    "id": 86,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "角換わりの定跡",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*2b",
-    "explanation": "2二に角を打ち込む強手です。"
-  },
-  {
-    "id": 87,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "9手詰み",
-    "sfen": "k8/1p7/S8/9/G8/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を打って連続王手で詰めます。"
-  },
-  {
-    "id": 88,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "銀の突進",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h3g",
-    "explanation": "銀を3七に進めて突進します。"
-  },
-  {
-    "id": 89,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "鉄壁の守り",
-    "sfen": "ln1gk1snl/1r2sgb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GSG1R1/LN2K2NL b - 7",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いてさらに囲います。"
-  },
-  {
-    "id": 90,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "端攻め応用",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9f9e",
-    "explanation": "端歩を突き捨てます。"
-  },
-  {
-    "id": 91,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "連続王手",
-    "sfen": "k8/9/G8/9/9/9/9/9/9 b R2b2g4s4n4l18p 1",
-    "correct_move": "R*9a",
-    "explanation": "飛車を打って連続王手で詰めます。"
-  },
-  {
-    "id": 92,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "角道突破",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて角道を開けます。"
-  },
-  {
-    "id": 93,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "堅陣の維持",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "4h3h",
-    "explanation": "金を3八に引いて陣形を整えます。"
-  },
-  {
-    "id": 94,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "香車の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "9i9h",
-    "explanation": "香車を9八に上げて桂馬の活用を図ります。"
-  },
-  {
-    "id": 95,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "馬の詰め",
-    "sfen": "k8/9/1+B7/9/9/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "8c9b",
-    "explanation": "馬を9二に動かして詰みです。"
-  },
-  {
-    "id": 96,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "居角の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h6f",
-    "explanation": "角を6六に上げて攻撃力を増します。"
-  },
-  {
-    "id": 97,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "玉の逃げ道",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i6i",
-    "explanation": "玉を6九に引いて逃げ道を作ります。"
-  },
-  {
-    "id": 98,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "歩の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3g3f",
-    "explanation": "3六歩と突いて銀の進出を助けます。"
-  },
-  {
-    "id": 99,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "7手詰み",
-    "sfen": "k8/2G6/9/1G7/9/9/9/9/9 b R2b2g4s4n4l18p 1",
-    "correct_move": "9a9c",
-    "explanation": "飛車を9三から王手します。"
-  },
-  {
-    "id": 100,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "馬の使い方",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*5e",
-    "explanation": "5五に角を打ち込み中央制圧します。"
-  },
-  {
-    "id": 101,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "龍を使った守り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h1h",
-    "explanation": "飛車を1八に引いて横の守りを強化します。"
-  },
-  {
-    "id": 102,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "角の田楽刺し",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h2b",
-    "explanation": "角で2二角成と角を打ち込みます。"
-  },
-  {
-    "id": 103,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "龍の詰め",
-    "sfen": "k8/9/9/9/9/9/9/9/+R8 b 2b4g4s4n4l18p 1",
-    "correct_move": "9i9a",
-    "explanation": "龍を9一に走り詰めます。"
-  },
-  {
-    "id": 104,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "端の突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9g9f",
-    "explanation": "9六歩と端を突いてさらに攻めます。"
-  },
-  {
-    "id": 105,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "銀の引き付け",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に引き付けて守ります。"
-  },
-  {
-    "id": 106,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "飛車先の突破２",
-    "sfen": "lnsgkgsnl/1r5b1/pp1pppppp/2p6/9/2P6/PP1PPPPPP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて突破を図ります。"
-  },
-  {
-    "id": 107,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "9手詰み：連携",
-    "sfen": "k8/1p7/9/S8/G8/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c7c",
-    "explanation": "飛車を7三から斜めに王手。"
-  },
-  {
-    "id": 108,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "中央突破２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/4P4/9/PPPP1PPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "5g5f",
-    "explanation": "5六歩と突いてさらに中央突破します。"
-  },
-  {
-    "id": 109,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "金の引き付け",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i4h",
-    "explanation": "金を4八に上げて守りを固めます。"
-  },
-  {
-    "id": 110,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "銀の突進２",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h2g",
-    "explanation": "銀を2七に進めて突進します。"
-  },
-  {
-    "id": 111,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "11手詰み",
-    "sfen": "k8/1p7/S8/9/G8/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰め開始です。"
-  },
-  {
-    "id": 112,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "角換わりの手筋",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*7g",
-    "explanation": "7七に角を打って駒組みを整えます。"
-  },
-  {
-    "id": 113,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "堅い玉",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いてさらに固めます。"
-  },
-  {
-    "id": 114,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "歩で制圧",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6g6f",
-    "explanation": "6六歩と突いて銀の活動を制限します。"
-  },
-  {
-    "id": 115,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "角の連続王手",
-    "sfen": "k8/1p7/B8/9/9/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "9c7a",
-    "explanation": "角で7一に成って詰みへ。"
-  },
-  {
-    "id": 116,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "飛車の転換２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h4h",
-    "explanation": "飛車を4八に振って攻めの方向を変えます。"
-  },
-  {
-    "id": 117,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "玉の右逃げ",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i5h",
-    "explanation": "玉を5八に引いて右へ逃げる準備。"
-  },
-  {
-    "id": 118,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "桂頭の歩",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3g3f",
-    "explanation": "3六歩と突いて桂頭を攻めます。"
-  },
-  {
-    "id": 119,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "13手詰み：長手順",
-    "sfen": "k8/2G6/9/1G7/9/9/9/9/9 b 2r2b2g4s4n4l18p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀打ちから長手順の詰みへ。"
-  },
-  {
-    "id": 120,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "端の突破２",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9h9g",
-    "explanation": "香車を9七に上げてさらに攻めます。"
-  },
-  {
-    "id": 121,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "受けの手筋",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i6h",
-    "explanation": "金を6八に引いて守りを固めます。"
-  },
-  {
-    "id": 122,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "角の転換",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h6f",
-    "explanation": "角を6六に転換して攻撃の角度を変えます。"
-  },
-  {
-    "id": 123,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "飛車打ち詰み",
-    "sfen": "k8/9/9/G8/9/9/9/9/9 b R2b2g4s4n4l18p 1",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "kp7/9/P8/9/9/9/9/9/9 b R2g2s2n2l12p 30",
     "correct_move": "R*9b",
-    "explanation": "9二に飛車を打って詰みです。"
+    "explanation": "9二に飛車を打てば詰みです。飛車が9一・8二を制し、歩が9二を守ります。",
+    "id": 7
   },
   {
-    "id": 124,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "飛車成り込み",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2c",
-    "explanation": "飛車を2三に成り込みます。"
-  },
-  {
-    "id": 125,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "角の引き付け",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h9g",
-    "explanation": "角を9七に引いて守りを固めます。"
-  },
-  {
-    "id": 126,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "銀の攻め筋",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h4g",
-    "explanation": "銀を4七に引いて次の攻めを準備します。"
-  },
-  {
-    "id": 127,
-    "difficulty": "二段",
+    "difficulty": "1級",
     "category": "詰み",
-    "description": "金と角の詰め",
-    "sfen": "k8/2G6/1B7/9/9/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "2b1a",
-    "explanation": "金を1二に打って詰みます。"
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "kl7/9/P8/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*9b",
+    "explanation": "9二に飛車を打てば詰みです。飛車が9一・8二を制し、歩が9二を守ります。",
+    "id": 8
   },
   {
-    "id": 128,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "中飛車の狙い",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/4P4/9/PPPP1PPPP/1B5R1/LNSGKGSNL b - 3",
+    "difficulty": "1級",
+    "category": "詰み",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "kn7/9/P8/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*9b",
+    "explanation": "9二に飛車を打てば詰みです。飛車が9一・8二を制し、歩が9二を守ります。",
+    "id": 9
+  },
+  {
+    "difficulty": "1級",
+    "category": "詰み",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "7pk/9/8P/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*1b",
+    "explanation": "1二に飛車を打てば詰みです。飛車が1一・2二を制し、歩が1二を守ります。",
+    "id": 10
+  },
+  {
+    "difficulty": "1級",
+    "category": "詰み",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "7lk/9/8P/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*1b",
+    "explanation": "1二に飛車を打てば詰みです。飛車が1一・2二を制し、歩が1二を守ります。",
+    "id": 11
+  },
+  {
+    "difficulty": "1級",
+    "category": "詰み",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "7nk/9/8P/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*1b",
+    "explanation": "1二に飛車を打てば詰みです。飛車が1一・2二を制し、歩が1二を守ります。",
+    "id": 12
+  },
+  {
+    "difficulty": "1級",
+    "category": "詰み",
+    "description": "1手詰み：香打ちで詰める",
+    "sfen": "kp7/9/G8/9/9/9/9/9/9 b LG2g2s2n2l12p 30",
+    "correct_move": "L*9b",
+    "explanation": "9二に香車を打てば詰みです。香が9一を直接狙い、金が8二を守ります。",
+    "id": 13
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "2sk3nR/l1g1sg1bl/p7+N/2pp3p1/1p1npP2+B/2P5P/PPNPP1GP1/1S4RS1/L4GK1L b 4P 57",
+    "correct_move": "1c2b",
+    "explanation": "1c2bと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 14
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "守りの好手",
+    "sfen": "ln3krnl/9/p1s1s1p1b/Gp1Pg1Ppp/1N3N3/PP3P3/2PKp1gPP/L1SG1R1SL/2B6 b 4P 73",
+    "correct_move": "2h3g",
+    "explanation": "2h3gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 15
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "lnB1k4/1g2r1s1p/N1g2pnp1/ppp5l/P2pP3L/2PP2g1P/LP1G+bP1P1/6SR1/3KS1SN1 w 2Pp 68",
+    "correct_move": "5g6g",
+    "explanation": "5g6gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 16
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "5k1n1/l5gbl/s1ngP1ppp/1PP1g4/pr1s1P2P/P2P2PP1/2N+bG4/6SR1/L1S1K2NL b 5P 79",
+    "correct_move": "5g6g",
+    "explanation": "5g6gと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 17
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "l1B1g2n1/1P1gs1k1l/r2p3pp/1pp2p1P1/4pPPn1/2SP5/1+lP1+n1S1P/4G3R/1NBGK1S1L w 4p 68",
+    "correct_move": "9c9h+",
+    "explanation": "9c9h+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 18
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "lng2g1n1/r2s1k1b1/5ppp1/pp1pBP2l/2ps5/P1P1G1PPP/NPR1P4/2GS2K2/L3S2NL w 3P 62",
+    "correct_move": "6e5d",
+    "explanation": "6e5dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 19
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "1n1gg1s1l/l1sr3k1/1npp1p2n/4pG1pp/pP2P2BP/L1P2P1P1/3P2P2/6GR1/2S2KSNL w B3P 62",
+    "correct_move": "4c4d",
+    "explanation": "4c4dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 20
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "1ns1gk2l/l4s3/p3gpn1p/BpP1P2ps/3p2p1P/Rr1P1P2L/P1NG2P1N/LBp1K4/2S3+p2 b g2p 79",
+    "correct_move": "9f8f",
+    "explanation": "9f8fと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 21
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "2sk3nR/l1g1sg1bl/p7+N/2pp3p1/1p1npP2+B/2P5P/PPNPP1GP1/1S4RS1/L4GK1L b 4P 57",
+    "correct_move": "1c2b",
+    "explanation": "1c2bと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 22
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "ln3krnl/9/p1s1s1p1b/Gp1Pg1Ppp/1N3N3/PP3P3/2PKp1gPP/L1SG1R1SL/2B6 b 4P 73",
+    "correct_move": "2h3g",
+    "explanation": "2h3gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 23
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "lnB1k4/1g2r1s1p/N1g2pnp1/ppp5l/P2pP3L/2PP2g1P/LP1G+bP1P1/6SR1/3KS1SN1 w 2Pp 68",
+    "correct_move": "5g6g",
+    "explanation": "5g6gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 24
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "守りの好手",
+    "sfen": "5k1n1/l5gbl/s1ngP1ppp/1PP1g4/pr1s1P2P/P2P2PP1/2N+bG4/6SR1/L1S1K2NL b 5P 79",
+    "correct_move": "5g6g",
+    "explanation": "5g6gと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 25
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "l3kg1nl/r8/npsgppspp/8b/P1pp1P3/1P4PPP/b2PPR2N/2G1G2S1/LNSK4L w 3P 66",
+    "correct_move": "9g8f+",
+    "explanation": "9g8f+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 26
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "1ng1k2nb/1+Ps2gs1l/2pp2p1p/1B2pP1p1/rP1P5/2P1P2PP/+l1KR1SP2/1SG5L/LN4GN1 w 2Pp 64",
+    "correct_move": "7a8b",
+    "explanation": "7a8bで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 27
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "lnsk4l/2r2gs2/+Bp2gpnP1/3pp1P1p/2p2P3/P1P1P4/LPGP+b3P/4R1S1L/1NS1K2N1 w 3Pg 52",
+    "correct_move": "9a9c",
+    "explanation": "9a9cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 28
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "l2k1gsn1/3s4l/1+Np1b2pp/1p1Ppp3/+r3P1p1g/1P3PPPN/1GP1S2lL/4+b2R1/S3G1KN1 b 2P2p 77",
     "correct_move": "2h5h",
-    "explanation": "飛車を5八に移動して中飛車にします。"
+    "explanation": "2h5hと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 29
   },
   {
-    "id": 129,
-    "difficulty": "二段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "金の引き付け２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6i5h",
-    "explanation": "金を5八に引いて守りを整えます。"
+    "description": "相手の大駒を消せ",
+    "sfen": "1n1g2+Pl1/l7l/+B1r1p1gpp/3ksp1nP/3p2p2/1pp1P4/PPNP1PG1+n/LB1K2RS1/3S1G1S1 b P2p 77",
+    "correct_move": "2h1g",
+    "explanation": "2h1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 30
   },
   {
-    "id": 130,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "飛車の横転",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h3h",
-    "explanation": "飛車を3八に移動して守りを強化します。"
-  },
-  {
-    "id": 131,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "銀と桂の詰め",
-    "sfen": "k8/3N5/2S6/9/9/9/9/9/9 b 2r2b4g3s3n4l18p 1",
-    "correct_move": "3b1a",
-    "explanation": "桂を成って詰めます。"
-  },
-  {
-    "id": 132,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "飛車先の制圧",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2e",
-    "explanation": "飛車を2五に上げて制圧します。"
-  },
-  {
-    "id": 133,
-    "difficulty": "二段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "角道の封鎖",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて角道を開けます。"
-  },
-  {
-    "id": 134,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "馬の活用",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*6f",
-    "explanation": "6六に角を打って馬を作ります。"
-  },
-  {
-    "id": 135,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "7手詰み：銀と金",
-    "sfen": "k8/2p6/S8/G8/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰め開始。"
-  },
-  {
-    "id": 136,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "香車の活用",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9h9g",
-    "explanation": "香車を9七に上げて端攻めを強化。"
-  },
-  {
-    "id": 137,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "固める手",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i5h",
-    "explanation": "金を5八に引いて固めます。"
-  },
-  {
-    "id": 138,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "銀の連携",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i6h",
-    "explanation": "銀を6八に上げて連携を図ります。"
-  },
-  {
-    "id": 139,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "龍と馬の詰め",
-    "sfen": "k8/9/+R7/9/9/+B7/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "9c9b",
-    "explanation": "龍を9二に動かして詰みへ。"
-  },
-  {
-    "id": 140,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "角の急所",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h3c",
-    "explanation": "角で3三角と打ち込みます。"
-  },
-  {
-    "id": 141,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "桂馬での受け",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2i3g",
-    "explanation": "桂を3七に跳ねて受けに使います。"
-  },
-  {
-    "id": 142,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "金の活用２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6i6h",
-    "explanation": "金を6八に上げて陣形を整えます。"
-  },
-  {
-    "id": 143,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "11手詰み：馬活用",
-    "sfen": "k8/1p7/1+B6/9/9/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "8c9b",
-    "explanation": "馬を9二に動かして詰みへ。"
-  },
-  {
-    "id": 144,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "銀の突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h3g",
-    "explanation": "銀を3七に進めてさらに突破を図ります。"
-  },
-  {
-    "id": 145,
-    "difficulty": "二段",
-    "category": "守り",
-    "description": "壁銀の解消",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i3h",
-    "explanation": "銀を3八に上げて壁を解消します。"
-  },
-  {
-    "id": 146,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "飛車の活用",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
+    "description": "防御の要所",
+    "sfen": "1n2g2p1/2rs3gl/lppp1pb1p/p5ps1/5Pk2/1PPPp3G/PK2P2+n1/3B3SL/LN1SG2N1 b r3p 77",
     "correct_move": "2h2g",
-    "explanation": "飛車を2七に上げて使いやすくします。"
+    "explanation": "2h2gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 31
   },
   {
-    "id": 147,
-    "difficulty": "二段",
-    "category": "詰み",
-    "description": "9手詰み：龍王",
-    "sfen": "k8/9/+R7/G8/9/9/9/9/9 b 2b2g4s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "龍を8三に動かして連携詰めへ。"
-  },
-  {
-    "id": 148,
-    "difficulty": "二段",
-    "category": "攻め",
-    "description": "攻め合い",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて戦いを開始します。"
-  },
-  {
-    "id": 149,
-    "difficulty": "二段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "受け切り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に引いて受けに回ります。"
+    "description": "相手の大駒を消せ",
+    "sfen": "l1p5l/1r1gkgsp1/p1+P1ppb1n/np1p3R1/6pG1/NB1PPPP2/PP7/L1S1G2P1/4KS1NL w SPp 72",
+    "correct_move": "6b7c",
+    "explanation": "6b7cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 32
   },
   {
-    "id": 150,
-    "difficulty": "二段",
-    "category": "手筋",
-    "description": "角頭の歩",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6g6f",
-    "explanation": "6六歩と突いて角頭を攻めます。"
-  },
-  {
-    "id": 151,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "5手詰み：難問",
-    "sfen": "k8/2p6/1S7/G8/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に進めて詰みへ向かいます。"
-  },
-  {
-    "id": 152,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "7手詰み：飛車と馬",
-    "sfen": "k8/9/+R7/1+B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "龍を8三に動かして詰め形に入ります。"
-  },
-  {
-    "id": 153,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "割り打ちの銀",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h2g",
-    "explanation": "銀を2七に進めて飛角の連携を図ります。"
-  },
-  {
-    "id": 154,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "総攻め",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2c",
-    "explanation": "飛車を2三に成り込む強手です。"
-  },
-  {
-    "id": 155,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "鉄壁の囲い",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GSG1R1/LN2K2NL b - 7",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いてさらに囲います。"
+    "description": "飛車をいじめろ",
+    "sfen": "3k2sn1/1rs1gg1b1/lp1p1p2l/p5ppp/4P1PP1/+n2P1P2P/1Pp1S2G1/LBR5L/1NSGK2N1 b P2p 51",
+    "correct_move": "9h9f",
+    "explanation": "9h9fで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 33
   },
   {
-    "id": 156,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "桂のポン",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8i7g",
-    "explanation": "桂を7七に跳ねる好手です。"
-  },
-  {
-    "id": 157,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "9手詰み：連携",
-    "sfen": "k8/1p7/N8/G8/9/9/9/9/9 b R2b2g4s3n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰め開始。"
-  },
-  {
-    "id": 158,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "飛角の連携",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に進めて飛車の前途を開きます。"
-  },
-  {
-    "id": 159,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "堅陣の要",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "6h5h",
-    "explanation": "金を5八に引いて守りを安定させます。"
+    "description": "受けの急所を突け",
+    "sfen": "1r2kg1n1/lsgg4l/n2p3pp/ppp3sP1/4bKP2/2P6/PP3P2P/L1G1p1p1L/BNS1P1SN1 b 2Pr 67",
+    "correct_move": "4e5e",
+    "explanation": "4e5eと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 34
   },
   {
-    "id": 160,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "竜王の活用",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*4e",
-    "explanation": "4五に角を打って中央を制圧します。"
-  },
-  {
-    "id": 161,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "11手詰み",
-    "sfen": "k8/2G6/9/1S7/9/9/9/9/9 b R2b2g3s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "飛車打ちから連続王手で詰め。"
-  },
-  {
-    "id": 162,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "銀の活用",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h3g",
-    "explanation": "銀を3七に進めて突進します。"
-  },
-  {
-    "id": 163,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "穴熊の完成",
-    "sfen": "l2gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GSG1R1/1N2K2NL b - 7",
-    "correct_move": "9i9h",
-    "explanation": "穴熊を完成させます。"
+    "description": "飛車をいじめろ",
+    "sfen": "l4k1nl/3g1gs2/pB1spr1pp/3p1ppl1/P8/1PP1gP1P1/L1nPP1PSP/1KS1G1R2/1N5N1 b B2P 69",
+    "correct_move": "8c5f+",
+    "explanation": "8c5f+で相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 35
   },
   {
-    "id": 164,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "角の急所２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "まず7六歩と突きます。"
-  },
-  {
-    "id": 165,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "13手詰み",
-    "sfen": "k8/1p7/S8/9/1G7/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9b",
-    "explanation": "飛車で9二に打って詰め開始。"
-  },
-  {
-    "id": 166,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "端を突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9h9g",
-    "explanation": "香車を上げて端攻めを強化します。"
-  },
-  {
-    "id": 167,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "壁を崩す",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に引いて壁を解消。"
+    "description": "攻め駒を排除して守れ",
+    "sfen": "ln1s1ks1l/3rg4/1pp1pg2p/p1Pr1b3/3G1p1pn/3P1P2P/PPB1P2PL/2SG1Sp2/LN2K4 w N2p 60",
+    "correct_move": "4d1g+",
+    "explanation": "4d1g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 36
   },
   {
-    "id": 168,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "金の活用３",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i4h",
-    "explanation": "金を4八に上げて守りを固めます。"
-  },
-  {
-    "id": 169,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "馬と龍の詰め",
-    "sfen": "k8/9/+R7/1+B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "9c9b",
-    "explanation": "龍を9二に下ろして詰みへ。"
-  },
-  {
-    "id": 170,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "飛車の捌き",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h2f",
-    "explanation": "飛車を2六に上げて捌きます。"
-  },
-  {
-    "id": 171,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "玉の安全地帯",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i6h",
-    "explanation": "玉を6八に移動させて安全に。"
+    "description": "攻防一体の手",
+    "sfen": "3s3nl/lr3k1b1/np2NppPp/p6p1/1PPpp1P1s/P7P/1G1P1g1g1/LS2GS1rL/B3K2N1 b 3p 77",
+    "correct_move": "2c2b+",
+    "explanation": "2c2b+と大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 37
   },
   {
-    "id": 172,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "端の攻め合い",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9f9e",
-    "explanation": "9五歩と端歩を突き捨てます。"
-  },
-  {
-    "id": 173,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "15手詰み",
-    "sfen": "k8/2p6/S8/G8/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に進めて詰み開始。"
-  },
-  {
-    "id": 174,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "角の打ち込み",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*2b",
-    "explanation": "2二に角を打ち込む好手。"
-  },
-  {
-    "id": 175,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "飛車の抑え込み",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "2sg2bn1/l1s2r2l/2P1pp3/pp2kg+Bpp/8P/1PGp2P1L/P2PP1GP1/LS5R1/1NK1S2N1 w N3P 72",
+    "correct_move": "4d3d",
+    "explanation": "4d3dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 38
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "4rk1n1/l5sbl/nsp1gpppp/Pp7/2PpP4/1P1gRPPP1/B7P/L2G2G1L/1NS1K1SN1 w P2p 74",
+    "correct_move": "6f5f",
+    "explanation": "6f5fと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 39
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "角を追い払え",
+    "sfen": "ln6l/3gk1gb1/p1ppp1Nr1/sp3ps2/P4P2S/LP2N1P1P/2PPPG1P1/1BR2K2L/1NSG5 w 3P 52",
+    "correct_move": "2c2g+",
+    "explanation": "2c2g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 40
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "角を追い払え",
+    "sfen": "l2k4l/1r1sg1gs1/n2p1pnpp/1pp2b3/2G6/p2Pp3P/P1P2PpPL/3S2SR1/LNB2KGN1 w 3p 54",
+    "correct_move": "7d7e",
+    "explanation": "7d7eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 41
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "sn2gksnl/l5rb1/2NG2+P1p/3p1p3/4p2p1/p2PP3P/2P1GPpPN/1B1K1SGRL/L1S6 w 3Pp 64",
+    "correct_move": "2a3c",
+    "explanation": "2a3cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 42
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "1n+B1kg1n1/l1g3sbl/5pppp/1rppP4/9/1pP4P1/PP1P1PP1P/4GKS1R/LNS2G1NL w S2P 34",
+    "correct_move": "7b7a",
+    "explanation": "7b7aと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 43
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "lnrk1g1nl/4sbs2/2+Rg5/p2ppp1pp/3P1PB2/P3G4/N+p2PSPPP/2p2G2L/L1SK3N1 w 2Pp 70",
+    "correct_move": "8a7c",
+    "explanation": "8a7cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 44
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "ln1s4b/r2s1g1kl/p1p+N2n1p/2P3p2/P3gp1P1/1p2P3P/1P1PSPP1L/L2G5/B1SK1GRN1 b 3P 77",
+    "correct_move": "5f5e",
+    "explanation": "5f5eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 45
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "角を追い払え",
+    "sfen": "l1B1g2n1/1P1gs1k1l/r2p3pp/1pp2p1P1/4pPPn1/2SP5/1+lP1+n1S1P/4G3R/1NBGK1S1L w 4p 68",
+    "correct_move": "9c9h+",
+    "explanation": "9c9h+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 46
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "lng2g1n1/r2s1k1b1/5ppp1/pp1pBP2l/2ps5/P1P1G1PPP/NPR1P4/2GS2K2/L3S2NL w 3P 62",
+    "correct_move": "6e5d",
+    "explanation": "6e5dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 47
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "1n1gg1s1l/l1sr3k1/1npp1p2n/4pG1pp/pP2P2BP/L1P2P1P1/3P2P2/6GR1/2S2KSNL w B3P 62",
+    "correct_move": "4c4d",
+    "explanation": "4c4dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 48
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "1ns1gk2l/l4s3/p3gpn1p/BpP1P2ps/3p2p1P/Rr1P1P2L/P1NG2P1N/LBp1K4/2S3+p2 b g2p 79",
+    "correct_move": "9f8f",
+    "explanation": "9f8fと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 49
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "2sk3nR/l1g1sg1bl/p7+N/2pp3p1/1p1npP2+B/2P5P/PPNPP1GP1/1S4RS1/L4GK1L b 4P 57",
+    "correct_move": "1c2b",
+    "explanation": "1c2bと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 50
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "ln3krnl/9/p1s1s1p1b/Gp1Pg1Ppp/1N3N3/PP3P3/2PKp1gPP/L1SG1R1SL/2B6 b 4P 73",
+    "correct_move": "2h3g",
+    "explanation": "2h3gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 51
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "lnB1k4/1g2r1s1p/N1g2pnp1/ppp5l/P2pP3L/2PP2g1P/LP1G+bP1P1/6SR1/3KS1SN1 w 2Pp 68",
+    "correct_move": "5g6g",
+    "explanation": "5g6gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 52
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "5k1n1/l5gbl/s1ngP1ppp/1PP1g4/pr1s1P2P/P2P2PP1/2N+bG4/6SR1/L1S1K2NL b 5P 79",
+    "correct_move": "5g6g",
+    "explanation": "5g6gと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 53
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "l3kg1nl/r8/npsgppspp/8b/P1pp1P3/1P4PPP/b2PPR2N/2G1G2S1/LNSK4L w 3P 66",
+    "correct_move": "9g8f+",
+    "explanation": "9g8f+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 54
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "1ng1k2nb/1+Ps2gs1l/2pp2p1p/1B2pP1p1/rP1P5/2P1P2PP/+l1KR1SP2/1SG5L/LN4GN1 w 2Pp 64",
+    "correct_move": "7a8b",
+    "explanation": "7a8bで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 55
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "lnsk4l/2r2gs2/+Bp2gpnP1/3pp1P1p/2p2P3/P1P1P4/LPGP+b3P/4R1S1L/1NS1K2N1 w 3Pg 52",
+    "correct_move": "9a9c",
+    "explanation": "9a9cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 56
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "守りの好手",
+    "sfen": "l2k1gsn1/3s4l/1+Np1b2pp/1p1Ppp3/+r3P1p1g/1P3PPPN/1GP1S2lL/4+b2R1/S3G1KN1 b 2P2p 77",
     "correct_move": "2h5h",
-    "explanation": "飛車を5八に転換して中央を守ります。"
+    "explanation": "2h5hと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 57
   },
   {
-    "id": 176,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "飛車の活用２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h2e",
-    "explanation": "飛車を2五に上げて活発にします。"
-  },
-  {
-    "id": 177,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "9手詰み：銀と金",
-    "sfen": "k8/2p6/1SG6/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "3c2b",
-    "explanation": "銀が2二に進んで詰めます。"
-  },
-  {
-    "id": 178,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "穴熊攻略",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9g9f",
-    "explanation": "9六歩と端を攻めます。"
-  },
-  {
-    "id": 179,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "銀の守り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i7h",
-    "explanation": "銀を7八に上げて守りを固めます。"
+    "description": "角を追い払え",
+    "sfen": "l1s2kbn1/2rggs2l/pp1pP1ppp/2p6/1r3pPS1/1PP2P1P1/2NP5/3GG3L/L+nS1K1bN1 b P2p 51",
+    "correct_move": "8f8e",
+    "explanation": "8f8eと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 58
   },
   {
-    "id": 180,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "桂の跳ね",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2i3g",
-    "explanation": "桂を3七に跳ねて攻めに参加。"
-  },
-  {
-    "id": 181,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "11手詰み：連続王手",
-    "sfen": "k8/1p7/S8/1G7/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c7c",
-    "explanation": "飛車打ちで攻めます。"
-  },
-  {
-    "id": 182,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "4枚攻め",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて4枚攻めの準備。"
-  },
-  {
-    "id": 183,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "玉を固める",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いて固めます。"
+    "description": "角を追い払え",
+    "sfen": "1ng6/lgs2rs1l/ppkp1pn1b/2p4p1/1PPP2PGp/1S6P/P1N1+pP1S1/4G4/L4KRNL w Pb2p 78",
+    "correct_move": "2d2e",
+    "explanation": "2d2eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 59
   },
   {
-    "id": 184,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "角の転換２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に転換します。"
-  },
-  {
-    "id": 185,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "13手詰み：飛角",
-    "sfen": "k8/9/2R6/2B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "3c1c",
-    "explanation": "飛車と角の連携で詰めます。"
-  },
-  {
-    "id": 186,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "銀の突進２",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h2g",
-    "explanation": "銀を2七に進めてさらに突進。"
-  },
-  {
-    "id": 187,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "囲いの強化",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "3h4h",
-    "explanation": "金を4八に引いて囲いを強化。"
+    "description": "守りの好手",
+    "sfen": "1n1g2+Pl1/l7l/+B1r1p1gpp/3ksp1nP/3p2p2/1pp1P4/PPNP1PG1+n/LB1K2RS1/3S1G1S1 b P2p 77",
+    "correct_move": "2h1g",
+    "explanation": "2h1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 60
   },
   {
-    "id": 188,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "と金の活用",
-    "sfen": "lnsgkgsnl/1r5b1/pp1pppppp/2p6/9/2P6/PP1PPPPPP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2f2e",
-    "explanation": "2五歩と突いてさらに前進。"
-  },
-  {
-    "id": 189,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "7手詰み：角成",
-    "sfen": "k8/1p7/B8/9/G8/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "9c7a",
-    "explanation": "角を7一に成って詰みへ。"
-  },
-  {
-    "id": 190,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "飛車の成り込み２",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて成り込みます。"
-  },
-  {
-    "id": 191,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "銀冠の組み方",
-    "sfen": "lnsgk1snl/1r4gb1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN1SK2NL b - 7",
-    "correct_move": "4h5g",
-    "explanation": "金を5七に上げて銀冠を完成。"
+    "description": "角を追い払え",
+    "sfen": "1n2g2p1/2rs3gl/lppp1pb1p/p5ps1/5Pk2/1PPPp3G/PK2P2+n1/3B3SL/LN1SG2N1 b r3p 77",
+    "correct_move": "2h2g",
+    "explanation": "2h2gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 61
   },
   {
-    "id": 192,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "角の働き",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h7g",
-    "explanation": "角を7七に動かして効率化。"
-  },
-  {
-    "id": 193,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "15手詰み：連携",
-    "sfen": "k8/2p6/N8/G8/9/9/9/9/9 b R2b2g4s3n4l17p 1",
-    "correct_move": "3b1a",
-    "explanation": "桂成から詰め開始。"
-  },
-  {
-    "id": 194,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "居飛車の攻め",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩から居飛車で攻めます。"
-  },
-  {
-    "id": 195,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "固めの手",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i3h",
-    "explanation": "銀を3八に上げて守りを固めます。"
+    "description": "角を追い払え",
+    "sfen": "l1p5l/1r1gkgsp1/p1+P1ppb1n/np1p3R1/6pG1/NB1PPPP2/PP7/L1S1G2P1/4KS1NL w SPp 72",
+    "correct_move": "6b7c",
+    "explanation": "6b7cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 62
   },
   {
-    "id": 196,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "端歩突き",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9f9e",
-    "explanation": "9五歩と突き捨てます。"
-  },
-  {
-    "id": 197,
-    "difficulty": "三段",
-    "category": "詰み",
-    "description": "9手詰み：馬と金",
-    "sfen": "k8/9/1+B6/G8/9/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "8c9b",
-    "explanation": "馬を9二に動かして詰みへ。"
-  },
-  {
-    "id": 198,
-    "difficulty": "三段",
-    "category": "攻め",
-    "description": "攻め筋の発見",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2g2f",
-    "explanation": "2六歩と突いて攻め筋を作ります。"
-  },
-  {
-    "id": 199,
-    "difficulty": "三段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "金の引き付け３",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6i5h",
-    "explanation": "金を5八に引き付けます。"
+    "description": "攻め駒を排除して守れ",
+    "sfen": "3k2sn1/1rs1gg1b1/lp1p1p2l/p5ppp/4P1PP1/+n2P1P2P/1Pp1S2G1/LBR5L/1NSGK2N1 b P2p 51",
+    "correct_move": "9h9f",
+    "explanation": "9h9fで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 63
   },
   {
-    "id": 200,
-    "difficulty": "三段",
-    "category": "手筋",
-    "description": "銀と金の連携",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に上げて金と連携します。"
-  },
-  {
-    "id": 201,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "5手詰み：難問",
-    "sfen": "k8/2p6/1SG6/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に打って詰みへ。"
-  },
-  {
-    "id": 202,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "7手詰み：飛角連携",
-    "sfen": "k8/9/2R6/3B5/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "3c1c",
-    "explanation": "飛車を1三に走り詰めます。"
-  },
-  {
-    "id": 203,
-    "difficulty": "四段",
-    "category": "手筋",
-    "description": "中盤の判断",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて優位を拡大します。"
-  },
-  {
-    "id": 204,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "読みの深さ",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に出て飛車の前途を開きます。"
-  },
-  {
-    "id": 205,
-    "difficulty": "四段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "完璧な守り",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GSG1R1/LN2K2NL b - 7",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いて完璧に囲います。"
+    "description": "角を追い払え",
+    "sfen": "1r2kg1n1/lsgg4l/n2p3pp/ppp3sP1/4bKP2/2P6/PP3P2P/L1G1p1p1L/BNS1P1SN1 b 2Pr 67",
+    "correct_move": "4e5e",
+    "explanation": "4e5eと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 64
   },
   {
-    "id": 206,
-    "difficulty": "四段",
-    "category": "手筋",
-    "description": "玉の囲いの深さ",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に移して囲います。"
-  },
-  {
-    "id": 207,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "9手詰み：難問",
-    "sfen": "k8/1p7/SG7/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰め開始。"
-  },
-  {
-    "id": 208,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "角の捌き",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*6f",
-    "explanation": "6六に角を打って駒を捌きます。"
-  },
-  {
-    "id": 209,
-    "difficulty": "四段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "受けの極意",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "4h3h",
-    "explanation": "金を3八に引いて受けます。"
+    "description": "受けの急所を突け",
+    "sfen": "l4k1nl/3g1gs2/pB1spr1pp/3p1ppl1/P8/1PP1gP1P1/L1nPP1PSP/1KS1G1R2/1N5N1 b B2P 69",
+    "correct_move": "8c5f+",
+    "explanation": "8c5f+で相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 65
   },
   {
-    "id": 210,
-    "difficulty": "四段",
-    "category": "手筋",
-    "description": "攻守のバランス",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に上げてバランスを取ります。"
-  },
-  {
-    "id": 211,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "11手詰み",
-    "sfen": "k8/2p6/1SG6/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に進めて詰み開始。"
-  },
-  {
-    "id": 212,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "終盤の寄せ",
-    "sfen": "k8/1p7/G8/9/9/9/9/9/9 b R2b2g4s4n4l17p 1",
-    "correct_move": "R*9a",
-    "explanation": "9一に飛車を打って寄せます。"
-  },
-  {
-    "id": 213,
-    "difficulty": "四段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "守備の要",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i6h",
-    "explanation": "金を6八に上げて守備を固めます。"
+    "description": "攻防一体の手",
+    "sfen": "ln1s1ks1l/3rg4/1pp1pg2p/p1Pr1b3/3G1p1pn/3P1P2P/PPB1P2PL/2SG1Sp2/LN2K4 w N2p 60",
+    "correct_move": "4d1g+",
+    "explanation": "4d1g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 66
   },
   {
-    "id": 214,
-    "difficulty": "四段",
-    "category": "手筋",
-    "description": "飛車先の突破",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2c",
-    "explanation": "飛車を2三に成り込む強手。"
-  },
-  {
-    "id": 215,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "13手詰み",
-    "sfen": "k8/2G6/9/1S7/9/9/9/9/9 b R2b2g3s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "飛車で王手から詰め進めます。"
-  },
-  {
-    "id": 216,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "竜王の力",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて成り込みます。"
-  },
-  {
-    "id": 217,
-    "difficulty": "四段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "弾力的な守り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i5h",
-    "explanation": "金を5八に引いて弾力的に守ります。"
+    "description": "相手の狙いを消せ",
+    "sfen": "3s3nl/lr3k1b1/np2NppPp/p6p1/1PPpp1P1s/P7P/1G1P1g1g1/LS2GS1rL/B3K2N1 b 3p 77",
+    "correct_move": "2c2b+",
+    "explanation": "2c2b+と大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 67
   },
   {
-    "id": 218,
-    "difficulty": "四段",
-    "category": "手筋",
-    "description": "桂の連携",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8i7g",
-    "explanation": "桂を7七に跳ねて連携します。"
-  },
-  {
-    "id": 219,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "15手詰み",
-    "sfen": "k8/1p7/1S7/G8/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に進め詰め開始。"
-  },
-  {
-    "id": 220,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "角の突進",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*3c",
-    "explanation": "3三に角を打ち込む強手。"
-  },
-  {
-    "id": 221,
-    "difficulty": "四段",
+    "difficulty": "1級",
     "category": "守り",
-    "description": "玉の疎開",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
+    "description": "相手の拠点を崩せ",
+    "sfen": "2sg2bn1/l1s2r2l/2P1pp3/pp2kg+Bpp/8P/1PGp2P1L/P2PP1GP1/LS5R1/1NK1S2N1 w N3P 72",
+    "correct_move": "4d3d",
+    "explanation": "4d3dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 68
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "4rk1n1/l5sbl/nsp1gpppp/Pp7/2PpP4/1P1gRPPP1/B7P/L2G2G1L/1NS1K1SN1 w P2p 74",
+    "correct_move": "6f5f",
+    "explanation": "6f5fと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 69
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "ln6l/3gk1gb1/p1ppp1Nr1/sp3ps2/P4P2S/LP2N1P1P/2PPPG1P1/1BR2K2L/1NSG5 w 3P 52",
+    "correct_move": "2c2g+",
+    "explanation": "2c2g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 70
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "l2k4l/1r1sg1gs1/n2p1pnpp/1pp2b3/2G6/p2Pp3P/P1P2PpPL/3S2SR1/LNB2KGN1 w 3p 54",
+    "correct_move": "7d7e",
+    "explanation": "7d7eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 71
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "sn2gksnl/l5rb1/2NG2+P1p/3p1p3/4p2p1/p2PP3P/2P1GPpPN/1B1K1SGRL/L1S6 w 3Pp 64",
+    "correct_move": "2a3c",
+    "explanation": "2a3cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 72
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "1n+B1kg1n1/l1g3sbl/5pppp/1rppP4/9/1pP4P1/PP1P1PP1P/4GKS1R/LNS2G1NL w S2P 34",
+    "correct_move": "7b7a",
+    "explanation": "7b7aと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 73
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "lnrk1g1nl/4sbs2/2+Rg5/p2ppp1pp/3P1PB2/P3G4/N+p2PSPPP/2p2G2L/L1SK3N1 w 2Pp 70",
+    "correct_move": "8a7c",
+    "explanation": "8a7cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 74
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "ln1s4b/r2s1g1kl/p1p+N2n1p/2P3p2/P3gp1P1/1p2P3P/1P1PSPP1L/L2G5/B1SK1GRN1 b 3P 77",
+    "correct_move": "5f5e",
+    "explanation": "5f5eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 75
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "防御の要所",
+    "sfen": "l1B1g2n1/1P1gs1k1l/r2p3pp/1pp2p1P1/4pPPn1/2SP5/1+lP1+n1S1P/4G3R/1NBGK1S1L w 4p 68",
+    "correct_move": "9c9h+",
+    "explanation": "9c9h+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 76
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "lng2g1n1/r2s1k1b1/5ppp1/pp1pBP2l/2ps5/P1P1G1PPP/NPR1P4/2GS2K2/L3S2NL w 3P 62",
+    "correct_move": "6e5d",
+    "explanation": "6e5dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 77
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "1n1gg1s1l/l1sr3k1/1npp1p2n/4pG1pp/pP2P2BP/L1P2P1P1/3P2P2/6GR1/2S2KSNL w B3P 62",
+    "correct_move": "4c4d",
+    "explanation": "4c4dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 78
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "1ns1gk2l/l4s3/p3gpn1p/BpP1P2ps/3p2p1P/Rr1P1P2L/P1NG2P1N/LBp1K4/2S3+p2 b g2p 79",
+    "correct_move": "9f8f",
+    "explanation": "9f8fと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 79
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "防御の要所",
+    "sfen": "2sk3nR/l1g1sg1bl/p7+N/2pp3p1/1p1npP2+B/2P5P/PPNPP1GP1/1S4RS1/L4GK1L b 4P 57",
+    "correct_move": "1c2b",
+    "explanation": "1c2bと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 80
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "ln3krnl/9/p1s1s1p1b/Gp1Pg1Ppp/1N3N3/PP3P3/2PKp1gPP/L1SG1R1SL/2B6 b 4P 73",
+    "correct_move": "2h3g",
+    "explanation": "2h3gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 81
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "lnB1k4/1g2r1s1p/N1g2pnp1/ppp5l/P2pP3L/2PP2g1P/LP1G+bP1P1/6SR1/3KS1SN1 w 2Pp 68",
+    "correct_move": "5g6g",
+    "explanation": "5g6gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 82
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "5k1n1/l5gbl/s1ngP1ppp/1PP1g4/pr1s1P2P/P2P2PP1/2N+bG4/6SR1/L1S1K2NL b 5P 79",
+    "correct_move": "5g6g",
+    "explanation": "5g6gと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 83
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "l3kg1nl/r8/npsgppspp/8b/P1pp1P3/1P4PPP/b2PPR2N/2G1G2S1/LNSK4L w 3P 66",
+    "correct_move": "9g8f+",
+    "explanation": "9g8f+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 84
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "1ng1k2nb/1+Ps2gs1l/2pp2p1p/1B2pP1p1/rP1P5/2P1P2PP/+l1KR1SP2/1SG5L/LN4GN1 w 2Pp 64",
+    "correct_move": "7a8b",
+    "explanation": "7a8bで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 85
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "防御の要所",
+    "sfen": "lnsk4l/2r2gs2/+Bp2gpnP1/3pp1P1p/2p2P3/P1P1P4/LPGP+b3P/4R1S1L/1NS1K2N1 w 3Pg 52",
+    "correct_move": "9a9c",
+    "explanation": "9a9cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 86
+  },
+  {
+    "difficulty": "1級",
+    "category": "守り",
+    "description": "角を追い払え",
+    "sfen": "l2k1gsn1/3s4l/1+Np1b2pp/1p1Ppp3/+r3P1p1g/1P3PPPN/1GP1S2lL/4+b2R1/S3G1KN1 b 2P2p 77",
+    "correct_move": "2h5h",
+    "explanation": "2h5hと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 87
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "l1s2kbn1/2rggs2l/pp1pP1ppp/2p6/1r3pPS1/1PP2P1P1/2NP5/3GG3L/L+nS1K1bN1 b P2p 51",
+    "correct_move": "8f8e",
+    "explanation": "8f8eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 88
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1ng6/lgs2rs1l/ppkp1pn1b/2p4p1/1PPP2PGp/1S6P/P1N1+pP1S1/4G4/L4KRNL w Pb2p 78",
+    "correct_move": "2d2e",
+    "explanation": "2d2eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 89
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1n1g2+Pl1/l7l/+B1r1p1gpp/3ksp1nP/3p2p2/1pp1P4/PPNP1PG1+n/LB1K2RS1/3S1G1S1 b P2p 77",
+    "correct_move": "2h1g",
+    "explanation": "2h1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 90
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "1n2g2p1/2rs3gl/lppp1pb1p/p5ps1/5Pk2/1PPPp3G/PK2P2+n1/3B3SL/LN1SG2N1 b r3p 77",
+    "correct_move": "2h2g",
+    "explanation": "2h2gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 91
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "l1p5l/1r1gkgsp1/p1+P1ppb1n/np1p3R1/6pG1/NB1PPPP2/PP7/L1S1G2P1/4KS1NL w SPp 72",
+    "correct_move": "6b7c",
+    "explanation": "6b7cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 92
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "3k2sn1/1rs1gg1b1/lp1p1p2l/p5ppp/4P1PP1/+n2P1P2P/1Pp1S2G1/LBR5L/1NSGK2N1 b P2p 51",
+    "correct_move": "9h9f",
+    "explanation": "9h9fで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 93
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "1r2kg1n1/lsgg4l/n2p3pp/ppp3sP1/4bKP2/2P6/PP3P2P/L1G1p1p1L/BNS1P1SN1 b 2Pr 67",
+    "correct_move": "4e5e",
+    "explanation": "4e5eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 94
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "l4k1nl/3g1gs2/pB1spr1pp/3p1ppl1/P8/1PP1gP1P1/L1nPP1PSP/1KS1G1R2/1N5N1 b B2P 69",
+    "correct_move": "8c5f+",
+    "explanation": "8c5f+で相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 95
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "成りで大駒を活かせ",
+    "sfen": "ln1s1ks1l/3rg4/1pp1pg2p/p1Pr1b3/3G1p1pn/3P1P2P/PPB1P2PL/2SG1Sp2/LN2K4 w N2p 60",
+    "correct_move": "4d1g+",
+    "explanation": "4d1g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 96
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "角を仕留めろ",
+    "sfen": "3s3nl/lr3k1b1/np2NppPp/p6p1/1PPpp1P1s/P7P/1G1P1g1g1/LS2GS1rL/B3K2N1 b 3p 77",
+    "correct_move": "2c2b+",
+    "explanation": "2c2b+と大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 97
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "角を仕留めろ",
+    "sfen": "2sg2bn1/l1s2r2l/2P1pp3/pp2kg+Bpp/8P/1PGp2P1L/P2PP1GP1/LS5R1/1NK1S2N1 w N3P 72",
+    "correct_move": "4d3d",
+    "explanation": "4d3dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 98
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "大駒をタダで取れ",
+    "sfen": "4rk1n1/l5sbl/nsp1gpppp/Pp7/2PpP4/1P1gRPPP1/B7P/L2G2G1L/1NS1K1SN1 w P2p 74",
+    "correct_move": "6f5f",
+    "explanation": "6f5fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 99
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "角を成れ",
+    "sfen": "ln6l/3gk1gb1/p1ppp1Nr1/sp3ps2/P4P2S/LP2N1P1P/2PPPG1P1/1BR2K2L/1NSG5 w 3P 52",
+    "correct_move": "2c2g+",
+    "explanation": "2c2g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 100
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "l2k4l/1r1sg1gs1/n2p1pnpp/1pp2b3/2G6/p2Pp3P/P1P2PpPL/3S2SR1/LNB2KGN1 w 3p 54",
+    "correct_move": "7d7e",
+    "explanation": "7d7eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 101
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "sn2gksnl/l5rb1/2NG2+P1p/3p1p3/4p2p1/p2PP3P/2P1GPpPN/1B1K1SGRL/L1S6 w 3Pp 64",
+    "correct_move": "2a3c",
+    "explanation": "2a3cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 102
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "1n+B1kg1n1/l1g3sbl/5pppp/1rppP4/9/1pP4P1/PP1P1PP1P/4GKS1R/LNS2G1NL w S2P 34",
+    "correct_move": "7b7a",
+    "explanation": "7b7aと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 103
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "角を仕留めろ",
+    "sfen": "lnrk1g1nl/4sbs2/2+Rg5/p2ppp1pp/3P1PB2/P3G4/N+p2PSPPP/2p2G2L/L1SK3N1 w 2Pp 70",
+    "correct_move": "8a7c",
+    "explanation": "8a7cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 104
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "と金を取れ",
+    "sfen": "ln1s4b/r2s1g1kl/p1p+N2n1p/2P3p2/P3gp1P1/1p2P3P/1P1PSPP1L/L2G5/B1SK1GRN1 b 3P 77",
+    "correct_move": "5f5e",
+    "explanation": "5f5eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 105
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "成りで大駒を活かせ",
+    "sfen": "l1B1g2n1/1P1gs1k1l/r2p3pp/1pp2p1P1/4pPPn1/2SP5/1+lP1+n1S1P/4G3R/1NBGK1S1L w 4p 68",
+    "correct_move": "9c9h+",
+    "explanation": "9c9h+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 106
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "飛車を奪え",
+    "sfen": "lng2g1n1/r2s1k1b1/5ppp1/pp1pBP2l/2ps5/P1P1G1PPP/NPR1P4/2GS2K2/L3S2NL w 3P 62",
+    "correct_move": "6e5d",
+    "explanation": "6e5dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 107
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "1n1gg1s1l/l1sr3k1/1npp1p2n/4pG1pp/pP2P2BP/L1P2P1P1/3P2P2/6GR1/2S2KSNL w B3P 62",
+    "correct_move": "4c4d",
+    "explanation": "4c4dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 108
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "1ns1gk2l/l4s3/p3gpn1p/BpP1P2ps/3p2p1P/Rr1P1P2L/P1NG2P1N/LBp1K4/2S3+p2 b g2p 79",
+    "correct_move": "9f8f",
+    "explanation": "9f8fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 109
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "2sk3nR/l1g1sg1bl/p7+N/2pp3p1/1p1npP2+B/2P5P/PPNPP1GP1/1S4RS1/L4GK1L b 4P 57",
+    "correct_move": "1c2b",
+    "explanation": "1c2bと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 110
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "ln3krnl/9/p1s1s1p1b/Gp1Pg1Ppp/1N3N3/PP3P3/2PKp1gPP/L1SG1R1SL/2B6 b 4P 73",
+    "correct_move": "2h3g",
+    "explanation": "2h3gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 111
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "lnB1k4/1g2r1s1p/N1g2pnp1/ppp5l/P2pP3L/2PP2g1P/LP1G+bP1P1/6SR1/3KS1SN1 w 2Pp 68",
+    "correct_move": "5g6g",
+    "explanation": "5g6gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 112
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "飛車を奪え",
+    "sfen": "5k1n1/l5gbl/s1ngP1ppp/1PP1g4/pr1s1P2P/P2P2PP1/2N+bG4/6SR1/L1S1K2NL b 5P 79",
+    "correct_move": "5g6g",
+    "explanation": "5g6gと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 113
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "成りで大駒を活かせ",
+    "sfen": "l3kg1nl/r8/npsgppspp/8b/P1pp1P3/1P4PPP/b2PPR2N/2G1G2S1/LNSK4L w 3P 66",
+    "correct_move": "9g8f+",
+    "explanation": "9g8f+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 114
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "と金を取れ",
+    "sfen": "1ng1k2nb/1+Ps2gs1l/2pp2p1p/1B2pP1p1/rP1P5/2P1P2PP/+l1KR1SP2/1SG5L/LN4GN1 w 2Pp 64",
+    "correct_move": "7a8b",
+    "explanation": "7a8bで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 115
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "lnsk4l/2r2gs2/+Bp2gpnP1/3pp1P1p/2p2P3/P1P1P4/LPGP+b3P/4R1S1L/1NS1K2N1 w 3Pg 52",
+    "correct_move": "9a9c",
+    "explanation": "9a9cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 116
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "l2k1gsn1/3s4l/1+Np1b2pp/1p1Ppp3/+r3P1p1g/1P3PPPN/1GP1S2lL/4+b2R1/S3G1KN1 b 2P2p 77",
+    "correct_move": "2h5h",
+    "explanation": "2h5hと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 117
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "大駒をタダで取れ",
+    "sfen": "lnk6/1s1g1s3/r2gp4/Ppp2b+B1l/3p1n1pp/LPP3PPP/2GPPSN2/6RKL/1NS2G3 b 3Pp 81",
+    "correct_move": "3d4d",
+    "explanation": "3d4dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 118
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1n2sks1+B/l3g1g2/p1p1p1+B2/3p1pppL/3N1P3/Pr1P3P1/1p3GN1+p/L4S1RL/2SGK4 b N5p 65",
+    "correct_move": "1h1g",
+    "explanation": "1h1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 119
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "龍を取り切れ",
+    "sfen": "5ksn1/n2sr3G/2+B1pg1p1/2p2p2p/PpP1NPp2/1P1P3PP/N1Kp2P2/2S2R3/L2GG1S+bL w 2L2P 80",
+    "correct_move": "6b7c",
+    "explanation": "6b7cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 120
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "ln4gn+S/rgb6/p1Nk1s1pp/1p1ppb3/1Pp6/P1P2pP2/3PP2PP/LS3K1R1/3GG1SNL w L2P 56",
+    "correct_move": "4d1a",
+    "explanation": "4d1aで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 121
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "と金を取れ",
+    "sfen": "l2+P1ps2/2s1g2bl/1pn2kp1n/r1Ppp2gp/1P4PP1/4P3P/p1NS1G2R/1B2K2S1/L5GNL b 2P2p 73",
+    "correct_move": "2e2d",
+    "explanation": "2e2dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 122
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "lns4n1/1rg6/P1kgspp1l/p2p1P1pp/1ppPp4/6+bPn/1P5GP/1BGS1R2L/L3KS1N1 w 3p 78",
+    "correct_move": "3f2g",
+    "explanation": "3f2gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 123
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "角を仕留めろ",
+    "sfen": "1ns4n1/lrg1k1s1l/p1N1lp2B/1p1p1g2p/6pp1/1P2p1G2/P1KP1PPP1/L1SG1R3/B4S1N1 w P3p 68",
+    "correct_move": "1b1c",
+    "explanation": "1b1cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 124
+  },
+  {
+    "difficulty": "1級",
+    "category": "手筋",
+    "description": "角を仕留めろ",
+    "sfen": "2sgk1snl/4r1g1p/4pp1p+N/lp4p2/2p2P3/3p2Pnl/1P2P2PP/p2K2S+bL/P1S1GN1R1 b Bg2p 65",
+    "correct_move": "2i2h",
+    "explanation": "2i2hと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 125
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "l1s2kbn1/2rggs2l/pp1pP1ppp/2p6/1r3pPS1/1PP2P1P1/2NP5/3GG3L/L+nS1K1bN1 b P2p 51",
+    "correct_move": "8f8e",
+    "explanation": "8f8eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 126
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1ng6/lgs2rs1l/ppkp1pn1b/2p4p1/1PPP2PGp/1S6P/P1N1+pP1S1/4G4/L4KRNL w Pb2p 78",
+    "correct_move": "2d2e",
+    "explanation": "2d2eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 127
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1n1g2+Pl1/l7l/+B1r1p1gpp/3ksp1nP/3p2p2/1pp1P4/PPNP1PG1+n/LB1K2RS1/3S1G1S1 b P2p 77",
+    "correct_move": "2h1g",
+    "explanation": "2h1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 128
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "1n2g2p1/2rs3gl/lppp1pb1p/p5ps1/5Pk2/1PPPp3G/PK2P2+n1/3B3SL/LN1SG2N1 b r3p 77",
+    "correct_move": "2h2g",
+    "explanation": "2h2gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 129
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "l1p5l/1r1gkgsp1/p1+P1ppb1n/np1p3R1/6pG1/NB1PPPP2/PP7/L1S1G2P1/4KS1NL w SPp 72",
+    "correct_move": "6b7c",
+    "explanation": "6b7cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 130
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "3k2sn1/1rs1gg1b1/lp1p1p2l/p5ppp/4P1PP1/+n2P1P2P/1Pp1S2G1/LBR5L/1NSGK2N1 b P2p 51",
+    "correct_move": "9h9f",
+    "explanation": "9h9fで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 131
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "1r2kg1n1/lsgg4l/n2p3pp/ppp3sP1/4bKP2/2P6/PP3P2P/L1G1p1p1L/BNS1P1SN1 b 2Pr 67",
+    "correct_move": "4e5e",
+    "explanation": "4e5eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 132
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "l4k1nl/3g1gs2/pB1spr1pp/3p1ppl1/P8/1PP1gP1P1/L1nPP1PSP/1KS1G1R2/1N5N1 b B2P 69",
+    "correct_move": "8c5f+",
+    "explanation": "8c5f+で相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 133
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "成りで大駒を活かせ",
+    "sfen": "ln1s1ks1l/3rg4/1pp1pg2p/p1Pr1b3/3G1p1pn/3P1P2P/PPB1P2PL/2SG1Sp2/LN2K4 w N2p 60",
+    "correct_move": "4d1g+",
+    "explanation": "4d1g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 134
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "3s3nl/lr3k1b1/np2NppPp/p6p1/1PPpp1P1s/P7P/1G1P1g1g1/LS2GS1rL/B3K2N1 b 3p 77",
+    "correct_move": "2c2b+",
+    "explanation": "2c2b+と大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 135
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "2sg2bn1/l1s2r2l/2P1pp3/pp2kg+Bpp/8P/1PGp2P1L/P2PP1GP1/LS5R1/1NK1S2N1 w N3P 72",
+    "correct_move": "4d3d",
+    "explanation": "4d3dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 136
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "大駒をタダで取れ",
+    "sfen": "4rk1n1/l5sbl/nsp1gpppp/Pp7/2PpP4/1P1gRPPP1/B7P/L2G2G1L/1NS1K1SN1 w P2p 74",
+    "correct_move": "6f5f",
+    "explanation": "6f5fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 137
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を成れ",
+    "sfen": "ln6l/3gk1gb1/p1ppp1Nr1/sp3ps2/P4P2S/LP2N1P1P/2PPPG1P1/1BR2K2L/1NSG5 w 3P 52",
+    "correct_move": "2c2g+",
+    "explanation": "2c2g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 138
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "l2k4l/1r1sg1gs1/n2p1pnpp/1pp2b3/2G6/p2Pp3P/P1P2PpPL/3S2SR1/LNB2KGN1 w 3p 54",
+    "correct_move": "7d7e",
+    "explanation": "7d7eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 139
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "sn2gksnl/l5rb1/2NG2+P1p/3p1p3/4p2p1/p2PP3P/2P1GPpPN/1B1K1SGRL/L1S6 w 3Pp 64",
+    "correct_move": "2a3c",
+    "explanation": "2a3cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 140
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "1n+B1kg1n1/l1g3sbl/5pppp/1rppP4/9/1pP4P1/PP1P1PP1P/4GKS1R/LNS2G1NL w S2P 34",
+    "correct_move": "7b7a",
+    "explanation": "7b7aと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 141
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "lnrk1g1nl/4sbs2/2+Rg5/p2ppp1pp/3P1PB2/P3G4/N+p2PSPPP/2p2G2L/L1SK3N1 w 2Pp 70",
+    "correct_move": "8a7c",
+    "explanation": "8a7cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 142
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "と金を取れ",
+    "sfen": "ln1s4b/r2s1g1kl/p1p+N2n1p/2P3p2/P3gp1P1/1p2P3P/1P1PSPP1L/L2G5/B1SK1GRN1 b 3P 77",
+    "correct_move": "5f5e",
+    "explanation": "5f5eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 143
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "成りで大駒を活かせ",
+    "sfen": "l1B1g2n1/1P1gs1k1l/r2p3pp/1pp2p1P1/4pPPn1/2SP5/1+lP1+n1S1P/4G3R/1NBGK1S1L w 4p 68",
+    "correct_move": "9c9h+",
+    "explanation": "9c9h+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 144
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "飛車を奪え",
+    "sfen": "lng2g1n1/r2s1k1b1/5ppp1/pp1pBP2l/2ps5/P1P1G1PPP/NPR1P4/2GS2K2/L3S2NL w 3P 62",
+    "correct_move": "6e5d",
+    "explanation": "6e5dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 145
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "1n1gg1s1l/l1sr3k1/1npp1p2n/4pG1pp/pP2P2BP/L1P2P1P1/3P2P2/6GR1/2S2KSNL w B3P 62",
+    "correct_move": "4c4d",
+    "explanation": "4c4dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 146
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "1ns1gk2l/l4s3/p3gpn1p/BpP1P2ps/3p2p1P/Rr1P1P2L/P1NG2P1N/LBp1K4/2S3+p2 b g2p 79",
+    "correct_move": "9f8f",
+    "explanation": "9f8fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 147
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "l1s2kbn1/2rggs2l/pp1pP1ppp/2p6/1r3pPS1/1PP2P1P1/2NP5/3GG3L/L+nS1K1bN1 b P2p 51",
+    "correct_move": "8f8e",
+    "explanation": "8f8eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 148
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1ng6/lgs2rs1l/ppkp1pn1b/2p4p1/1PPP2PGp/1S6P/P1N1+pP1S1/4G4/L4KRNL w Pb2p 78",
+    "correct_move": "2d2e",
+    "explanation": "2d2eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 149
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1n1g2+Pl1/l7l/+B1r1p1gpp/3ksp1nP/3p2p2/1pp1P4/PPNP1PG1+n/LB1K2RS1/3S1G1S1 b P2p 77",
+    "correct_move": "2h1g",
+    "explanation": "2h1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 150
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "1n2g2p1/2rs3gl/lppp1pb1p/p5ps1/5Pk2/1PPPp3G/PK2P2+n1/3B3SL/LN1SG2N1 b r3p 77",
+    "correct_move": "2h2g",
+    "explanation": "2h2gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 151
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "l1p5l/1r1gkgsp1/p1+P1ppb1n/np1p3R1/6pG1/NB1PPPP2/PP7/L1S1G2P1/4KS1NL w SPp 72",
+    "correct_move": "6b7c",
+    "explanation": "6b7cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 152
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "3k2sn1/1rs1gg1b1/lp1p1p2l/p5ppp/4P1PP1/+n2P1P2P/1Pp1S2G1/LBR5L/1NSGK2N1 b P2p 51",
+    "correct_move": "9h9f",
+    "explanation": "9h9fで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 153
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "1r2kg1n1/lsgg4l/n2p3pp/ppp3sP1/4bKP2/2P6/PP3P2P/L1G1p1p1L/BNS1P1SN1 b 2Pr 67",
+    "correct_move": "4e5e",
+    "explanation": "4e5eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 154
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "l4k1nl/3g1gs2/pB1spr1pp/3p1ppl1/P8/1PP1gP1P1/L1nPP1PSP/1KS1G1R2/1N5N1 b B2P 69",
+    "correct_move": "8c5f+",
+    "explanation": "8c5f+で相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 155
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "成りで大駒を活かせ",
+    "sfen": "ln1s1ks1l/3rg4/1pp1pg2p/p1Pr1b3/3G1p1pn/3P1P2P/PPB1P2PL/2SG1Sp2/LN2K4 w N2p 60",
+    "correct_move": "4d1g+",
+    "explanation": "4d1g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 156
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "3s3nl/lr3k1b1/np2NppPp/p6p1/1PPpp1P1s/P7P/1G1P1g1g1/LS2GS1rL/B3K2N1 b 3p 77",
+    "correct_move": "2c2b+",
+    "explanation": "2c2b+と大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 157
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "2sg2bn1/l1s2r2l/2P1pp3/pp2kg+Bpp/8P/1PGp2P1L/P2PP1GP1/LS5R1/1NK1S2N1 w N3P 72",
+    "correct_move": "4d3d",
+    "explanation": "4d3dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 158
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "大駒をタダで取れ",
+    "sfen": "4rk1n1/l5sbl/nsp1gpppp/Pp7/2PpP4/1P1gRPPP1/B7P/L2G2G1L/1NS1K1SN1 w P2p 74",
+    "correct_move": "6f5f",
+    "explanation": "6f5fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 159
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を成れ",
+    "sfen": "ln6l/3gk1gb1/p1ppp1Nr1/sp3ps2/P4P2S/LP2N1P1P/2PPPG1P1/1BR2K2L/1NSG5 w 3P 52",
+    "correct_move": "2c2g+",
+    "explanation": "2c2g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 160
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "l2k4l/1r1sg1gs1/n2p1pnpp/1pp2b3/2G6/p2Pp3P/P1P2PpPL/3S2SR1/LNB2KGN1 w 3p 54",
+    "correct_move": "7d7e",
+    "explanation": "7d7eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 161
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "sn2gksnl/l5rb1/2NG2+P1p/3p1p3/4p2p1/p2PP3P/2P1GPpPN/1B1K1SGRL/L1S6 w 3Pp 64",
+    "correct_move": "2a3c",
+    "explanation": "2a3cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 162
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "1n+B1kg1n1/l1g3sbl/5pppp/1rppP4/9/1pP4P1/PP1P1PP1P/4GKS1R/LNS2G1NL w S2P 34",
+    "correct_move": "7b7a",
+    "explanation": "7b7aと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 163
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "lnrk1g1nl/4sbs2/2+Rg5/p2ppp1pp/3P1PB2/P3G4/N+p2PSPPP/2p2G2L/L1SK3N1 w 2Pp 70",
+    "correct_move": "8a7c",
+    "explanation": "8a7cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 164
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "と金を取れ",
+    "sfen": "ln1s4b/r2s1g1kl/p1p+N2n1p/2P3p2/P3gp1P1/1p2P3P/1P1PSPP1L/L2G5/B1SK1GRN1 b 3P 77",
+    "correct_move": "5f5e",
+    "explanation": "5f5eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 165
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "l1s2kbn1/2rggs2l/pp1pP1ppp/2p6/1r3pPS1/1PP2P1P1/2NP5/3GG3L/L+nS1K1bN1 b P2p 51",
+    "correct_move": "8f8e",
+    "explanation": "8f8eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 166
+  },
+  {
+    "difficulty": "1級",
+    "category": "攻め",
+    "description": "攻め駒を取り切れ",
+    "sfen": "1ng6/lgs2rs1l/ppkp1pn1b/2p4p1/1PPP2PGp/1S6P/P1N1+pP1S1/4G4/L4KRNL w Pb2p 78",
+    "correct_move": "2d2e",
+    "explanation": "2d2eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 167
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：香打ちで詰める",
+    "sfen": "kl7/9/G8/9/9/9/9/9/9 b LG2g2s2n2l12p 30",
+    "correct_move": "L*9b",
+    "explanation": "9二に香車を打てば詰みです。香が9一を直接狙い、金が8二を守ります。",
+    "id": 168
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：香打ちで詰める",
+    "sfen": "kn7/9/G8/9/9/9/9/9/9 b LG2g2s2n2l12p 30",
+    "correct_move": "L*9b",
+    "explanation": "9二に香車を打てば詰みです。香が9一を直接狙い、金が8二を守ります。",
+    "id": 169
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "4k4/9/4P4/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*5b",
+    "explanation": "5二に金を打てば詰みです。「頭金」の手筋で玉の全方位が塞がれます。",
+    "id": 170
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "8k/9/8P/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば頭金の詰みです。",
+    "id": 171
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "7k1/9/7P1/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*2b",
+    "explanation": "2二に金を打てば頭金の詰みです。",
+    "id": 172
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "6k2/9/6P2/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*3b",
+    "explanation": "3二に金を打てば頭金の詰みです。",
+    "id": 173
+  },
+  {
+    "difficulty": "初段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "5k3/9/5P3/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*4b",
+    "explanation": "4二に金を打てば頭金の詰みです。",
+    "id": 174
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の狙いを消せ",
+    "sfen": "1rk2gsn1/l5g1l/npsp2p2/p3pp2p/P1P3gp1/1P1nP2SP/1+s+pP1P3/L5RPL/B3K2N1 b Bgp 75",
+    "correct_move": "3h3e",
+    "explanation": "3h3eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 175
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "3k1sbn1/2sg4l/4pp1K1/3gP4/lnpp1NrPp/1p1P2P1P/LPPG1P1RS/2G5L/BNS6 b 4P 77",
+    "correct_move": "3f3e",
+    "explanation": "3f3eと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 176
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "1g1r1gbnl/1s1+B1k3/6p1p/1pp1s2p1/3pPpP2/l2G1P2P/1PPP3PR/p4NKS1/LG2S2NL b 2Pn 79",
+    "correct_move": "6b6a",
+    "explanation": "6b6aと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 177
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "ln1g3n1/1rs2gs1l/1p1pkp2p/2p1p3+B/p2P5/2P+b3PP/PP1S1PP2/2G2G1RL/LN1K1S1N1 w 2Pp 40",
+    "correct_move": "1c1d",
+    "explanation": "1c1dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 178
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "l1s2gk2/5rsbl/n2p3p1/2pP2p1p/p2NSp3/2P1pGP1P/Pp3P1P+n/1B1S2GR1/LP2K2N1 b GLP 77",
+    "correct_move": "2i1g",
+    "explanation": "2i1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 179
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "攻め駒を排除して守れ",
+    "sfen": "lnsg2s1l/r2k3b1/pp1p1gB1p/2p1p2p1/5nP2/2P1P4/PP1P1G1PP/4RS3/LNSGK2NL w 2Pp 40",
+    "correct_move": "2b3c",
+    "explanation": "2b3cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 180
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "R1+P1k1pn1/4gsg1l/lp2pp1pp/p2p5/4s2N1/PP2Pn2P/2+bP1+l1PN/3SG1G1L/+b1K1SR3 w 3P 56",
+    "correct_move": "4g3h",
+    "explanation": "4g3hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 181
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "防御の要所",
+    "sfen": "1rk2gsn1/l5g1l/npsp2p2/p3pp2p/P1P3gp1/1P1nP2SP/1+s+pP1P3/L5RPL/B3K2N1 b Bgp 75",
+    "correct_move": "3h3e",
+    "explanation": "3h3eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 182
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "3k1sbn1/2sg4l/4pp1K1/3gP4/lnpp1NrPp/1p1P2P1P/LPPG1P1RS/2G5L/BNS6 b 4P 77",
+    "correct_move": "3f3e",
+    "explanation": "3f3eと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 183
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "角を追い払え",
+    "sfen": "1g1r1gbnl/1s1+B1k3/6p1p/1pp1s2p1/3pPpP2/l2G1P2P/1PPP3PR/p4NKS1/LG2S2NL b 2Pn 79",
+    "correct_move": "6b6a",
+    "explanation": "6b6aと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 184
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "ln1g3n1/1rs2gs1l/1p1pkp2p/2p1p3+B/p2P5/2P+b3PP/PP1S1PP2/2G2G1RL/LN1K1S1N1 w 2Pp 40",
+    "correct_move": "1c1d",
+    "explanation": "1c1dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 185
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "l1s2gk2/5rsbl/n2p3p1/2pP2p1p/p2NSp3/2P1pGP1P/Pp3P1P+n/1B1S2GR1/LP2K2N1 b GLP 77",
+    "correct_move": "2i1g",
+    "explanation": "2i1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 186
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "攻防一体の手",
+    "sfen": "lnsg2s1l/r2k3b1/pp1p1gB1p/2p1p2p1/5nP2/2P1P4/PP1P1G1PP/4RS3/LNSGK2NL w 2Pp 40",
+    "correct_move": "2b3c",
+    "explanation": "2b3cと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 187
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "R1+P1k1pn1/4gsg1l/lp2pp1pp/p2p5/4s2N1/PP2Pn2P/2+bP1+l1PN/3SG1G1L/+b1K1SR3 w 3P 56",
+    "correct_move": "4g3h",
+    "explanation": "4g3hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 188
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "1rk2gsn1/l5g1l/npsp2p2/p3pp2p/P1P3gp1/1P1nP2SP/1+s+pP1P3/L5RPL/B3K2N1 b Bgp 75",
+    "correct_move": "3h3e",
+    "explanation": "3h3eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 189
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "飛車をいじめろ",
+    "sfen": "3k1sbn1/2sg4l/4pp1K1/3gP4/lnpp1NrPp/1p1P2P1P/LPPG1P1RS/2G5L/BNS6 b 4P 77",
+    "correct_move": "3f3e",
+    "explanation": "3f3eと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 190
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "受けの急所を突け",
+    "sfen": "1g1r1gbnl/1s1+B1k3/6p1p/1pp1s2p1/3pPpP2/l2G1P2P/1PPP3PR/p4NKS1/LG2S2NL b 2Pn 79",
+    "correct_move": "6b6a",
+    "explanation": "6b6aと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 191
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "防御の要所",
+    "sfen": "ln1g3n1/1rs2gs1l/1p1pkp2p/2p1p3+B/p2P5/2P+b3PP/PP1S1PP2/2G2G1RL/LN1K1S1N1 w 2Pp 40",
+    "correct_move": "1c1d",
+    "explanation": "1c1dと大駒をタダで取れます。この受けの急所として取り除きましょう。",
+    "id": 192
+  },
+  {
+    "difficulty": "初段",
+    "category": "守り",
+    "description": "相手の大駒を消せ",
+    "sfen": "l1s2gk2/5rsbl/n2p3p1/2pP2p1p/p2NSp3/2P1pGP1P/Pp3P1P+n/1B1S2GR1/LP2K2N1 b GLP 77",
+    "correct_move": "2i1g",
+    "explanation": "2i1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 193
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "馬を取る好機",
+    "sfen": "lnsg2s1l/r2k3b1/pp1p1gB1p/2p1p2p1/5nP2/2P1P4/PP1P1G1PP/4RS3/LNSGK2NL w 2Pp 40",
+    "correct_move": "2b3c",
+    "explanation": "2b3cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 194
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "と金を取れ",
+    "sfen": "R1+P1k1pn1/4gsg1l/lp2pp1pp/p2p5/4s2N1/PP2Pn2P/2+bP1+l1PN/3SG1G1L/+b1K1SR3 w 3P 56",
+    "correct_move": "4g3h",
+    "explanation": "4g3hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 195
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "1rk2gsn1/l5g1l/npsp2p2/p3pp2p/P1P3gp1/1P1nP2SP/1+s+pP1P3/L5RPL/B3K2N1 b Bgp 75",
+    "correct_move": "3h3e",
+    "explanation": "3h3eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 196
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "角を仕留めろ",
+    "sfen": "3k1sbn1/2sg4l/4pp1K1/3gP4/lnpp1NrPp/1p1P2P1P/LPPG1P1RS/2G5L/BNS6 b 4P 77",
+    "correct_move": "3f3e",
+    "explanation": "3f3eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 197
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "飛車を奪え",
+    "sfen": "1g1r1gbnl/1s1+B1k3/6p1p/1pp1s2p1/3pPpP2/l2G1P2P/1PPP3PR/p4NKS1/LG2S2NL b 2Pn 79",
+    "correct_move": "6b6a",
+    "explanation": "6b6aと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 198
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "飛車を奪え",
+    "sfen": "ln1g3n1/1rs2gs1l/1p1pkp2p/2p1p3+B/p2P5/2P+b3PP/PP1S1PP2/2G2G1RL/LN1K1S1N1 w 2Pp 40",
+    "correct_move": "1c1d",
+    "explanation": "1c1dと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 199
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "l1s2gk2/5rsbl/n2p3p1/2pP2p1p/p2NSp3/2P1pGP1P/Pp3P1P+n/1B1S2GR1/LP2K2N1 b GLP 77",
+    "correct_move": "2i1g",
+    "explanation": "2i1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 200
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "角を成れ",
+    "sfen": "1n1k2s2/l1s2ggbl/3p2ppn/1p3pP1p/r1pNp4/1BP2P3/1P1PP1NPP/4G2RL/2SKS1G2 w Plp 52",
+    "correct_move": "9e9h+",
+    "explanation": "9e9h+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 201
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "2+S1l2n1/l1r1gksb1/2pppppp+N/1p7/P1P2P2p/+n3P1PP1/gP4G1P/1g3K2R/1N1S2S1L w LPbp 80",
+    "correct_move": "7b7a",
+    "explanation": "7b7aで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 202
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "成りで大駒を活かせ",
+    "sfen": "1n3rsn1/3sk1g1l/1+NpL2b1p/p2pp4/PPPg1P3/4P2p1/LG1P1SPPP/5G1RL/2SK3N1 w 3Pb 56",
+    "correct_move": "3c9i+",
+    "explanation": "3c9i+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 203
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "龍を取り切れ",
+    "sfen": "4rk1nl/ls2g1gs1/spN2pp2/p3p3p/3pBP1p1/PPpGP1PP1/L5N1P/3R2KS1/2+bG4L b N2p 69",
+    "correct_move": "6i7i",
+    "explanation": "6i7iと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 204
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "ln3g1n1/4r1sb1/pps2+Pppl/3p1p2k/P1p2gP2/1P1KP4/2PP1P2+p/L2SGRG2/bN4SN1 b l2p 69",
+    "correct_move": "2i1g",
+    "explanation": "2i1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 205
+  },
+  {
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "2s4nl/2rgk1g2/lp3s1p1/P2pp1p1p/2p1Pp2P/1P3P1b1/1G1P2P2/LB3G1R1/1NS+nK1SNL b 3p 67",
     "correct_move": "5i6i",
-    "explanation": "玉を6九に引いて安全に。"
+    "explanation": "5i6iで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 206
   },
   {
-    "id": 222,
-    "difficulty": "四段",
+    "difficulty": "初段",
     "category": "手筋",
-    "description": "銀と角の連携",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i4h",
-    "explanation": "銀を4八に上げて角と連携。"
+    "description": "成り込みで優位を確立",
+    "sfen": "l1s2k1nl/1rg1g1s+P1/1p1Bpp2+B/2pp5/pn5p1/6p2/PsP2PNPP/2S2G2L/LN1GK1PR1 b P2p 69",
+    "correct_move": "6c7d+",
+    "explanation": "6c7d+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 207
   },
   {
-    "id": 223,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "9手詰み：馬と龍",
-    "sfen": "k8/9/+R7/1+B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "9c9b",
-    "explanation": "龍で9二を攻めます。"
-  },
-  {
-    "id": 224,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "4筋突破",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4g4f",
-    "explanation": "4六歩と突いて4筋突破の準備。"
-  },
-  {
-    "id": 225,
-    "difficulty": "四段",
-    "category": "守り",
-    "description": "穴熊の強化",
-    "sfen": "l2gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GSG1R1/1N2K2NL b - 7",
-    "correct_move": "8i8h",
-    "explanation": "香を8八に上げて穴熊を完成。"
-  },
-  {
-    "id": 226,
-    "difficulty": "四段",
+    "difficulty": "初段",
     "category": "手筋",
-    "description": "飛車の転換３",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h4h",
-    "explanation": "飛車を4八に振って方向転換。"
+    "description": "好形を崩す一手",
+    "sfen": "l1k2g1n1/1sgr1+P1b1/N1n1p1p2/1pp5l/4P2Pp/1PPpRpP2/P7G/LB1S5/2KG2SNL w S2P2p 66",
+    "correct_move": "4a4b",
+    "explanation": "4a4bで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 208
   },
   {
-    "id": 227,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "11手詰み：銀と金",
-    "sfen": "k8/2p6/1SG6/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "3c2b",
-    "explanation": "銀を2二に進めて詰み。"
-  },
-  {
-    "id": 228,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "中央の制圧",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/4P4/9/PPPP1PPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "5g5f",
-    "explanation": "5六歩と突いて中央を制圧。"
-  },
-  {
-    "id": 229,
-    "difficulty": "四段",
-    "category": "守り",
-    "description": "受け切りの技術",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に引いて受け切ります。"
-  },
-  {
-    "id": 230,
-    "difficulty": "四段",
+    "difficulty": "初段",
     "category": "手筋",
-    "description": "角換わりの応用",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*7g",
-    "explanation": "7七に角を打って安定。"
+    "description": "攻め駒を取り切れ",
+    "sfen": "3gk1s2/l1rs1g1bl/p1n2pp2/1p2p2pp/1PPp1P3/7PP/P1BKP1+nRN/L4G2L/1NSG2S2 b P2p 51",
+    "correct_move": "4h3g",
+    "explanation": "4h3gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 209
   },
   {
-    "id": 231,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "13手詰み：連携",
-    "sfen": "k8/1p7/N8/1G7/9/9/9/9/9 b R2b2g4s3n4l17p 1",
-    "correct_move": "3b1a",
-    "explanation": "桂成から詰め開始。"
-  },
-  {
-    "id": 232,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "端の制圧",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9h9g",
-    "explanation": "香を9七に上げて端を制圧。"
-  },
-  {
-    "id": 233,
-    "difficulty": "四段",
-    "category": "守り",
-    "description": "金の守り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6i6h",
-    "explanation": "金を6八に上げて守ります。"
-  },
-  {
-    "id": 234,
-    "difficulty": "四段",
+    "difficulty": "初段",
     "category": "手筋",
-    "description": "飛車先の突破２",
-    "sfen": "lnsgkgsnl/1r5b1/pp1pppppp/2p6/9/2P6/PP1PPPPPP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて突破します。"
+    "description": "角を仕留めろ",
+    "sfen": "lnb2k3/3+N2s1l/1r1gpp3/pp3P1p1/2PpP1g2/P2P2P1p/1P2K2PG/L5GRL/2s+bS+nSN1 b 2Pp 77",
+    "correct_move": "6b7a",
+    "explanation": "6b7aと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 210
   },
   {
-    "id": 235,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "7手詰み：馬",
-    "sfen": "k8/9/1+B6/G8/9/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "8c9b",
-    "explanation": "馬を9二に動かして詰みへ。"
-  },
-  {
-    "id": 236,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "銀の突進３",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h2g",
-    "explanation": "銀を2七に進めてさらに突進。"
-  },
-  {
-    "id": 237,
-    "difficulty": "四段",
-    "category": "守り",
-    "description": "角の守り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h9g",
-    "explanation": "角を9七に引いて守りを固めます。"
-  },
-  {
-    "id": 238,
-    "difficulty": "四段",
+    "difficulty": "初段",
     "category": "手筋",
-    "description": "金の活用４",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i5h",
-    "explanation": "金を5八に引き付けます。"
+    "description": "馬を取る好機",
+    "sfen": "2k2s1n1/lr5bl/n2g2p1R/p1pspg3/1p1p3bP/2PP5/PP2PPPPN/L1S1G1K1L/1N1G1S3 w 3P 60",
+    "correct_move": "1b1c",
+    "explanation": "1b1cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 211
   },
   {
-    "id": 239,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "15手詰み：銀と金",
-    "sfen": "k8/2G6/9/1S7/G8/9/9/9/9 b R2b2g3s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "飛車で王手から詰め進めます。"
-  },
-  {
-    "id": 240,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "角の田楽刺し２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h2b",
-    "explanation": "角で2二角成と打ち込みます。"
-  },
-  {
-    "id": 241,
-    "difficulty": "四段",
-    "category": "守り",
-    "description": "堅固な陣形",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "5h4h",
-    "explanation": "金を4八に引いて陣形を固める。"
-  },
-  {
-    "id": 242,
-    "difficulty": "四段",
+    "difficulty": "初段",
     "category": "手筋",
-    "description": "桂の跳ね²",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2i3g",
-    "explanation": "桂を3七に跳ねて攻めます。"
+    "description": "龍を取り切れ",
+    "sfen": "l1s2s3/4k2bl/1rn3p1n/3p2Ppp/ppp1pN1PP/2PPPK2L/PPNG1P2b/LGG5S/2S6 b GPr 79",
+    "correct_move": "1h1g",
+    "explanation": "1h1gと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 212
   },
   {
-    "id": 243,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "9手詰み：連続王手",
-    "sfen": "k8/1p7/S8/1G7/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c7c",
-    "explanation": "飛車を7三に打って連続王手。"
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "飛車を奪え",
+    "sfen": "1n4snl/ls2rkg2/1pp1g3p/1s1ppp1P1/p3G1p1P/P4PP2/1PP2K1p1/LBG4RL/1NS4N1 w B2p 58",
+    "correct_move": "2g2h+",
+    "explanation": "2g2h+と大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 213
   },
   {
-    "id": 244,
-    "difficulty": "四段",
+    "difficulty": "初段",
+    "category": "手筋",
+    "description": "と金を取れ",
+    "sfen": "1n1+Ng3l/l3gkrs1/pp2pn3/4Lb1pp/4SpP1P/4+r1p2/PPpP3P1/L1GS2K1S/1NBG5 w 4p 76",
+    "correct_move": "5a6a",
+    "explanation": "5a6aで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 214
+  },
+  {
+    "difficulty": "初段",
     "category": "攻め",
-    "description": "飛車の横走り",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h4h",
-    "explanation": "飛車を4八に動かして横から攻めます。"
+    "description": "好形を崩す一手",
+    "sfen": "l1sg1sbn1/r2k5/1p2gp2l/2P1p2pL/P2PP1p2/4nP3/1P+n2KPP1/2pG3S1/L1BG2RN1 b 4Ps 79",
+    "correct_move": "6h7g",
+    "explanation": "6h7gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 215
   },
   {
-    "id": 245,
-    "difficulty": "四段",
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "1n3gb1l/l2gkrs2/p1p1sp+P1p/7p1/PSP1p2P1/3p5/NP2PPp1P/1BG1G1S2/L2NK2RL w 2Pn 62",
+    "correct_move": "3b3c",
+    "explanation": "3b3cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 216
+  },
+  {
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "lnsg2s1l/r2k3b1/pp1p1gB1p/2p1p2p1/5nP2/2P1P4/PP1P1G1PP/4RS3/LNSGK2NL w 2Pp 40",
+    "correct_move": "2b3c",
+    "explanation": "2b3cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 217
+  },
+  {
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "と金を取れ",
+    "sfen": "R1+P1k1pn1/4gsg1l/lp2pp1pp/p2p5/4s2N1/PP2Pn2P/2+bP1+l1PN/3SG1G1L/+b1K1SR3 w 3P 56",
+    "correct_move": "4g3h",
+    "explanation": "4g3hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 218
+  },
+  {
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "1rk2gsn1/l5g1l/npsp2p2/p3pp2p/P1P3gp1/1P1nP2SP/1+s+pP1P3/L5RPL/B3K2N1 b Bgp 75",
+    "correct_move": "3h3e",
+    "explanation": "3h3eで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 219
+  },
+  {
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "角を仕留めろ",
+    "sfen": "3k1sbn1/2sg4l/4pp1K1/3gP4/lnpp1NrPp/1p1P2P1P/LPPG1P1RS/2G5L/BNS6 b 4P 77",
+    "correct_move": "3f3e",
+    "explanation": "3f3eと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 220
+  },
+  {
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "馬を取る好機",
+    "sfen": "lnsg2s1l/r2k3b1/pp1p1gB1p/2p1p2p1/5nP2/2P1P4/PP1P1G1PP/4RS3/LNSGK2NL w 2Pp 40",
+    "correct_move": "2b3c",
+    "explanation": "2b3cと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 221
+  },
+  {
+    "difficulty": "初段",
+    "category": "攻め",
+    "description": "と金を取れ",
+    "sfen": "R1+P1k1pn1/4gsg1l/lp2pp1pp/p2p5/4s2N1/PP2Pn2P/2+bP1+l1PN/3SG1G1L/+b1K1SR3 w 3P 56",
+    "correct_move": "4g3h",
+    "explanation": "4g3hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 222
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "3k5/9/3P5/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*6b",
+    "explanation": "6二に金を打てば頭金の詰みです。",
+    "id": 223
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "2k6/9/2P6/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*7b",
+    "explanation": "7二に金を打てば頭金の詰みです。",
+    "id": 224
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "1k7/9/1P7/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*8b",
+    "explanation": "8二に金を打てば頭金の詰みです。",
+    "id": 225
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：頭金",
+    "sfen": "k8/9/P8/9/9/9/9/9/9 b G2g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば頭金の詰みです。",
+    "id": 226
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：桂馬の急所打ち",
+    "sfen": "6pkp/8R/7S1/9/9/9/9/9/9 b N2g2s2n2l10p2g2s2n2l10p 30",
+    "correct_move": "N*3c",
+    "explanation": "3三に桂馬を打てば詰みです。桂が2一に飛び、銀と飛車が玉の逃げ場を塞いでいます。",
+    "id": 227
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7pp/8k/7R1/9/9/9/9/9/9 b G2b2g2s2n2l10p2g2s2n2l10p 30",
+    "correct_move": "G*1c",
+    "explanation": "1三に金を打てば詰みです。金が1二の玉を上から押さえ、飛車が2三を守ります。",
+    "id": 228
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "pp7/k8/9/P8/9/9/9/9/9 b G2b2g2s2n2l10p2g2s2n2l10p 30",
+    "correct_move": "G*9c",
+    "explanation": "9三に金を打てば詰みです。玉の逃げ道が全て塞がれています。",
+    "id": 229
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "決め手の一手",
+    "sfen": "l1k3snl/4g4/g1Pp3p1/1r3p3/P5p1L/p1b1P2P1/nP1PpPP1P/2K1GR3/LNS1bG1NS w S3p 66",
+    "correct_move": "7f8g+",
+    "explanation": "7fから8gへ成指すと詰みになります。",
+    "id": 230
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "完全包囲の詰み",
+    "sfen": "1ng3s2/1r3P2l/l2pp+Pbkn/5B1pp/pP3g2P/L1p2pnP1/3+sP1PKL/2R6/PNS1G1S2 b Pg2p 83",
+    "correct_move": "4d3c+",
+    "explanation": "4dから3cへ成指すと詰みになります。",
+    "id": 231
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "1手詰み",
+    "sfen": "3g2spp/l2k3bl/5pG1+P/pp2s1p2/P1pp1P3/7P1/NPSP1+pg1L/L4G1SR/B2NRK1N1 w N3p 84",
+    "correct_move": "3g4h",
+    "explanation": "3gから4hへ指すと詰みになります。",
+    "id": 232
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "必勝の詰み",
+    "sfen": "l1gk1+B1nl/r1s6/1pn1p1s1p/p4pp2/2p5P/1P+b1P2p1/P2P1P2L/L2p1SKR1/1Ng2GSN1 b GP2p 65",
+    "correct_move": "G*5b",
+    "explanation": "G*5bと金を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 233
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "詰みを見つけよ",
+    "sfen": "4gk2l/lg1sr1s2/p1npBp3/1pp6/P5pp1/2P1P1P1G/B2GNP2+p/L1S2SR2/1NK4NL b P4p 65",
+    "correct_move": "5c3a+",
+    "explanation": "5cから3aへ成指すと詰みになります。",
+    "id": 234
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "必死の一手",
+    "sfen": "ln4knl/1s4b2/1p1p1p+N2/p4gppp/2p1p3P/3Pg1PP1/+b4GS2/L1GSKR3/1N2R3L b S5p 73",
+    "correct_move": "S*4b",
+    "explanation": "S*4bと銀を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 235
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "完全包囲の詰み",
+    "sfen": "1R3+NG2/3gk3l/l1pp1p1sp/7p1/p3PP1+bP/LgP3p2/nP1PS2P1/6R+bL/SNGK2S2 b NP3p 89",
+    "correct_move": "8a5a",
+    "explanation": "8aから5aへ指すと詰みになります。",
+    "id": 236
+  },
+  {
+    "difficulty": "二段",
+    "category": "詰み",
+    "description": "完全包囲の詰み",
+    "sfen": "ln2g2nk/1r1sg3l/p1S+bpp2+B/1p3P3/P1p3pp1/3p3P1/N+l1PP1K1P/2G1G1S1R/7NL b SP3p 71",
+    "correct_move": "S*2b",
+    "explanation": "S*2bと銀を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 237
+  },
+  {
+    "difficulty": "二段",
     "category": "守り",
-    "description": "銀の守備",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
+    "description": "攻防一体の手",
+    "sfen": "ln2ks3/1rs1g4/1pp1pP2n/2Pp1gp1l/pP5+BP/3P2P2/1+n2PG1KN/B5S2/LSGR4L b 4Pp 75",
+    "correct_move": "9h8g",
+    "explanation": "9h8gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 238
+  },
+  {
+    "difficulty": "二段",
+    "category": "守り",
+    "description": "相手の拠点を崩せ",
+    "sfen": "ln2ks3/1rs1g4/1pp1pP2n/2Pp1gp1l/pP5+BP/3P2P2/1+n2PG1KN/B5S2/LSGR4L b 4Pp 75",
+    "correct_move": "9h8g",
+    "explanation": "9h8gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 239
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "ln2ks3/1rs1g4/1pp1pP2n/2Pp1gp1l/pP5+BP/3P2P2/1+n2PG1KN/B5S2/LSGR4L b 4Pp 75",
+    "correct_move": "9h8g",
+    "explanation": "9h8gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 240
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "飛車を奪え",
+    "sfen": "l2g2snl/6+Rg1/n1+bp1k1p1/p1p5p/1N3pp2/1G7/P2P1P1PP/LB5R1/2SK2SNL w GS2P4p 58",
+    "correct_move": "3a3b",
+    "explanation": "3a3bと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 241
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "攻め駒を取り切れ",
+    "sfen": "4k1snl/lps6/n1rg2Npb/4p4/P1Pp3g1/3PPp1Pp/N3KGPRL/L1+p4S1/B1S1G4 b 4Pp 77",
     "correct_move": "7i7h",
-    "explanation": "銀を7八に上げて守備に使います。"
+    "explanation": "7i7hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 242
   },
   {
-    "id": 246,
-    "difficulty": "四段",
+    "difficulty": "二段",
     "category": "手筋",
-    "description": "歩の活用２",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "6g6f",
-    "explanation": "6六歩と突いて展開を見ます。"
-  },
-  {
-    "id": 247,
-    "difficulty": "四段",
-    "category": "詰み",
-    "description": "11手詰み：龍",
-    "sfen": "k8/9/+R7/G8/9/9/9/9/9 b 2b2g4s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "龍を8三に動かして詰みへ。"
-  },
-  {
-    "id": 248,
-    "difficulty": "四段",
-    "category": "攻め",
-    "description": "飛車の活用³",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて活発に動きます。"
-  },
-  {
-    "id": 249,
-    "difficulty": "四段",
-    "category": "守り",
-    "description": "玉の安全確保",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に動かして安全を確保。"
-  },
-  {
-    "id": 250,
-    "difficulty": "四段",
-    "category": "手筋",
-    "description": "総合力",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "まず7六歩と突くのが最善手です。"
-  },
-  {
-    "id": 251,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め1",
-    "sfen": "k8/2p6/1SG6/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に打ちます。"
-  },
-  {
-    "id": 252,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め2",
-    "sfen": "k8/9/+R7/1+B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "9c9b",
-    "explanation": "龍で9二を攻めます。"
-  },
-  {
-    "id": 253,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋1",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2c",
-    "explanation": "飛車を2三に成り込む。"
-  },
-  {
-    "id": 254,
-    "difficulty": "五段",
-    "category": "攻め",
-    "description": "高度な攻め1",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に進める。"
-  },
-  {
-    "id": 255,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り1",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GSG1R1/LN2K2NL b - 7",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いて固める。"
-  },
-  {
-    "id": 256,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め3",
-    "sfen": "k8/2G6/1B7/9/9/9/9/9/9 b 2r2g4s4n4l18p 1",
-    "correct_move": "2b1a",
-    "explanation": "金を1二に打って詰みます。"
-  },
-  {
-    "id": 257,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め4",
-    "sfen": "k8/1p7/S8/1G7/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c7c",
-    "explanation": "飛車を7三に打って王手。"
-  },
-  {
-    "id": 258,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋2",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*2b",
-    "explanation": "2二に角を打ち込む。"
-  },
-  {
-    "id": 259,
-    "difficulty": "五段",
-    "category": "攻め",
-    "description": "高度な攻め2",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9h9g",
-    "explanation": "香を9七に上げて端攻め。"
-  },
-  {
-    "id": 260,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り2",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いて固める。"
-  },
-  {
-    "id": 261,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め5",
-    "sfen": "k8/2p6/S8/G8/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に打って詰み開始。"
-  },
-  {
-    "id": 262,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め6",
-    "sfen": "k8/9/G8/1G7/9/9/9/9/9 b R2b2g4s4n4l18p 1",
-    "correct_move": "R*9a",
-    "explanation": "飛車を9一に打って詰みます。"
-  },
-  {
-    "id": 263,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋3",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h2g",
-    "explanation": "銀を2七に突進させる。"
-  },
-  {
-    "id": 264,
-    "difficulty": "五段",
-    "category": "攻め",
-    "description": "高度な攻め3",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9f9e",
-    "explanation": "9五歩と突き捨てる。"
-  },
-  {
-    "id": 265,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り3",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "6h5h",
-    "explanation": "金を5八に引いて守ります。"
-  },
-  {
-    "id": 266,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め7",
-    "sfen": "k8/1p7/B8/9/G8/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "9c7a",
-    "explanation": "角を7一に成って詰みへ。"
-  },
-  {
-    "id": 267,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め8",
-    "sfen": "k8/9/2R6/2B6/G8/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "3c1c",
-    "explanation": "飛車で1三に走り詰めます。"
-  },
-  {
-    "id": 268,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋4",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8h3c",
-    "explanation": "角で3三角成と打ち込む。"
-  },
-  {
-    "id": 269,
-    "difficulty": "五段",
-    "category": "攻め",
-    "description": "高度な攻め4",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げて突破。"
-  },
-  {
-    "id": 270,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り4",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "3h4h",
-    "explanation": "金を4八に引いて守る。"
-  },
-  {
-    "id": 271,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め9",
-    "sfen": "k8/2p6/1SG6/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "3c2b",
-    "explanation": "銀を2二に進めて詰みへ。"
-  },
-  {
-    "id": 272,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め10",
-    "sfen": "k8/2G6/9/1G7/9/9/9/9/9 b R2b2g4s4n4l18p 1",
-    "correct_move": "9a9c",
-    "explanation": "飛車で王手をかけます。"
-  },
-  {
-    "id": 273,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋5",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*5e",
-    "explanation": "5五に角を打って中央制圧。"
-  },
-  {
-    "id": 274,
-    "difficulty": "五段",
-    "category": "攻め",
-    "description": "高度な攻め5",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "まず7六歩と突きます。"
-  },
-  {
-    "id": 275,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り5",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に移動させて守ります。"
-  },
-  {
-    "id": 276,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め11",
-    "sfen": "k8/9/+R7/G8/9/9/9/9/9 b 2b2g4s4n4l18p 1",
-    "correct_move": "9c8c",
-    "explanation": "龍で8三から詰めます。"
-  },
-  {
-    "id": 277,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め12",
-    "sfen": "k8/1p7/S8/G8/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰め開始。"
-  },
-  {
-    "id": 278,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋6",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "2h2d",
-    "explanation": "飛車を2四に上げる。"
-  },
-  {
-    "id": 279,
-    "difficulty": "五段",
-    "category": "攻め",
-    "description": "高度な攻め6",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B2S2R1/LNSGKG1NL b - 5",
-    "correct_move": "3h3g",
-    "explanation": "銀を3七に進めて突進。"
-  },
-  {
-    "id": 280,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り6",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "3i3h",
-    "explanation": "銀を3八に上げて守る。"
-  },
-  {
-    "id": 281,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め13",
-    "sfen": "k8/2p6/N8/G8/9/9/9/9/9 b R2b2g4s3n4l17p 1",
-    "correct_move": "3b1a",
-    "explanation": "桂成から詰み開始。"
-  },
-  {
-    "id": 282,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め14",
-    "sfen": "k8/1p7/1B7/9/G8/9/9/9/9 b 2r2g4s4n4l17p 1",
-    "correct_move": "9c7a",
-    "explanation": "角を7一に成って詰みへ。"
-  },
-  {
-    "id": 283,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋7",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
+    "description": "飛車を奪え",
+    "sfen": "1ns1gg3/3k5/1pp1pps2/l1B4pl/p1Pp4p/PP1b3r1/3+n1PPPN/L3G3L/1NKSG1S2 b 2Pr2p 69",
     "correct_move": "2g2f",
-    "explanation": "2六歩と突いて攻めます。"
+    "explanation": "2g2fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 243
   },
   {
-    "id": 284,
-    "difficulty": "五段",
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "と金を取れ",
+    "sfen": "1ngbs4/lsr2k1b1/3+Sgp2l/2p1P1ppP/Pp5n1/3GG1P2/N1PP1P1P1/L4K1RL/6SN1 b 5P 75",
+    "correct_move": "6c5c",
+    "explanation": "6c5cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 244
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "好形を崩す一手",
+    "sfen": "lnr6/3s1k2l/3p1p1gn/B+Pg6/4p2pp/3PPPpPP/2N1GSP1N/2PS2KR1/6G1L w S3Pblp 74",
+    "correct_move": "7d8d",
+    "explanation": "7d8dで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 245
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "成りで大駒を活かせ",
+    "sfen": "ls1g2s2/4k1rbl/2B2gp1n/1p3p1pp/p1ppSP3/P7P/1PN2GPPN/L1R1GK3/7SL b NP3p 57",
+    "correct_move": "7c9a+",
+    "explanation": "7c9a+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 246
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "王の逃げ場なし",
+    "sfen": "1n6l/l1s3s2/1pgk1pn1p/p1ppr4/P3P1P2/3b1PK1P/LP1P1R1+pL/3SG4/1N1G2SN1 w B2Pg2p 56",
+    "correct_move": "G*2f",
+    "explanation": "この局面ではG*2fが詰みの一手です。相手に逃げ場はありません。",
+    "id": 247
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "大駒をタダで取れ",
+    "sfen": "ln2kr2l/6s2/ppNgpp1pp/+b1pp2p2/1s6P/1P2P1+b2/P2G1PP2/6SRL/LN2SGK2 b Gn3p 39",
+    "correct_move": "3g3f",
+    "explanation": "3g3fと大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 248
+  },
+  {
+    "difficulty": "二段",
+    "category": "手筋",
+    "description": "拠点を除去せよ",
+    "sfen": "ln1k5/r2s3sl/2pppg1Gp/1p4p2/p4p1pb/PP2PR2S/LGPPG3L/1B2S4/1NK4N1 w N4p 66",
+    "correct_move": "2b2c",
+    "explanation": "2b2cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 249
+  },
+  {
+    "difficulty": "二段",
     "category": "攻め",
-    "description": "高度な攻め7",
-    "sfen": "lnsgkgsnl/1r5b1/pppppppp1/8p/9/8P/PPPPPPPP1/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "9g9f",
-    "explanation": "9六歩と端を突きます。"
+    "description": "角を成れ",
+    "sfen": "lns3l1+B/4g4/pPpkpg2p/3prp1p1/PR4p1s/L5P1P/2SPP3n/B1G3GSL/1N1K5 w Pn3p 64",
+    "correct_move": "5d5g+",
+    "explanation": "5d5g+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 250
   },
   {
-    "id": 285,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り7",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7i6h",
-    "explanation": "金を6八に引いて守ります。"
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "龍を取り切れ",
+    "sfen": "lng2rs2/1s+N1k1g1l/p2p3p1/4p2bp/1pP2P3/PP1SP1p2/3P4+n/LG3KR2/2B1GS1NL w 3P2p 68",
+    "correct_move": "2d7i+",
+    "explanation": "2d7i+と大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 251
   },
   {
-    "id": 286,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め15",
-    "sfen": "k8/2G6/9/1G7/G8/9/9/9/9 b R2b2g4s4n4l18p 1",
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "lns4n1/3r1k2l/3g2+bs+P/ppp1psg1L/2Pp1P3/6P2/PP1PP2n1/+b2KRG1S1/2+l1G2N1 b 4Pp 67",
+    "correct_move": "6h7i",
+    "explanation": "6h7iで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 252
+  },
+  {
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "lrs3s2/1g1k5/+N1p3gp1/1p1p1GpNp/5P3/pP6P/1L+B1+bpPP1/1N1S1SG1R/L3K2NL w 2P3p 78",
     "correct_move": "9a9c",
-    "explanation": "飛車で王手をかけます。"
+    "explanation": "9a9cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 253
   },
   {
-    "id": 287,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め16",
-    "sfen": "k8/9/S8/G8/9/9/9/9/9 b R2b2g3s4n4l18p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰めます。"
-  },
-  {
-    "id": 288,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋8",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/6P2/PPPPPP1PP/1B5R1/LNSGKGSNL b - 7",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に進めて飛車の道を開く。"
-  },
-  {
-    "id": 289,
-    "difficulty": "五段",
+    "difficulty": "二段",
     "category": "攻め",
-    "description": "高度な攻め8",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/4P4/9/PPPP1PPPP/1B5R1/LNSGKGSNL b - 3",
-    "correct_move": "5g5f",
-    "explanation": "5六歩とさらに突いて中央突破。"
+    "description": "と金を取れ",
+    "sfen": "1n3g3/l2s1s2l/prp3k1+P/1p1Rp1pp1/S8/gPG2p2p/PGP1P1Pl1/L4K1B1/BN4SN1 w N4p 70",
+    "correct_move": "1b1c",
+    "explanation": "1b1cで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 254
   },
   {
-    "id": 290,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り8",
-    "sfen": "ln1gk2nl/1r1s1gb2/pppppp1pp/6p2/9/9/PPPPPP1PP/1B1GS2R1/LN2KGSNL b - 7",
-    "correct_move": "5i4i",
-    "explanation": "玉を4九に引いて固める。"
-  },
-  {
-    "id": 291,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め17",
-    "sfen": "k8/9/2R6/2B6/9/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "3c1c",
-    "explanation": "飛車で1三に走り詰めます。"
-  },
-  {
-    "id": 292,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め18",
-    "sfen": "k8/1p7/SG7/9/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "9c9a",
-    "explanation": "飛車を9一に打って詰め開始。"
-  },
-  {
-    "id": 293,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋9",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "8i7g",
-    "explanation": "桂を7七に跳ねて攻めに参加。"
-  },
-  {
-    "id": 294,
-    "difficulty": "五段",
+    "difficulty": "二段",
     "category": "攻め",
-    "description": "高度な攻め9",
-    "sfen": "lnsgkgsnl/1r5b1/pppppp1pp/6p2/9/9/PPPPPP1PP/1B5R1/LNSGKGSNL b - 5",
-    "correct_move": "8h4d",
-    "explanation": "角を4四に進める。"
+    "description": "飛車を成れ",
+    "sfen": "1n5nl/lsk1Bs3/1rg1p3p/1p7/pPp2P2P/3pP2PL/P1NP2P2/L2K4R/BS1GSG1N1 b G4P 59",
+    "correct_move": "5b4a+",
+    "explanation": "5b4a+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 255
   },
   {
-    "id": 295,
-    "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り9",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "4i4h",
-    "explanation": "金を4八に上げて守りを固める。"
-  },
-  {
-    "id": 296,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め19",
-    "sfen": "k8/2p6/1S7/1G7/9/9/9/9/9 b R2b2g3s4n4l17p 1",
-    "correct_move": "2b1a",
-    "explanation": "銀を1二に打って詰み。"
-  },
-  {
-    "id": 297,
-    "difficulty": "五段",
-    "category": "詰み",
-    "description": "難しい詰め20",
-    "sfen": "k8/9/+R7/1+B6/G8/9/9/9/9 b 2g4s4n4l18p 1",
-    "correct_move": "9c9b",
-    "explanation": "龍で9二を攻めます。"
-  },
-  {
-    "id": 298,
-    "difficulty": "五段",
-    "category": "手筋",
-    "description": "高度な手筋10",
-    "sfen": "lnsgkgsnl/1r7/ppppppppp/9/9/9/PPPPPPPPP/7R1/LNSGKGSNL b B 5",
-    "correct_move": "B*4e",
-    "explanation": "4五に角を打って中央制圧。"
-  },
-  {
-    "id": 299,
-    "difficulty": "五段",
+    "difficulty": "二段",
     "category": "攻め",
-    "description": "高度な攻め10",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "7g7f",
-    "explanation": "7六歩と突いて戦いを開始。"
+    "description": "成りで大駒を活かせ",
+    "sfen": "1n5n1/l1s1kBsb1/pr1p1g3/1p6l/2P1pp3/1P3P3/P1RPPGPPP/L3K4/1NS1G1SNL b G4P 59",
+    "correct_move": "4b2d+",
+    "explanation": "4b2d+と成り込み、大駒の威力を最大限に活かします。",
+    "id": 256
   },
   {
-    "id": 300,
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "大駒をタダで取れ",
+    "sfen": "6s1l/l1rs1gg+P1/2nppk2b/p1p5p/P8/L1PPPBp1P/1+pNS1PnKL/2G4S1/5G1R1 w 2Pn2p 68",
+    "correct_move": "3g2i+",
+    "explanation": "3g2i+と大駒をタダで取れます。この好機を逃さず取り切りましょう。",
+    "id": 257
+  },
+  {
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "lng2g3/4k1s1l/2sp3p1/pr2p1pnp/3G1p1nB/Pp6P/LPN1P1S2/5R1g1/BSK5L b P5p 77",
+    "correct_move": "4h2h",
+    "explanation": "4h2hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 258
+  },
+  {
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "1n4rnp/1s1k5/lppgppg2/b2p2p2/LS2P2p1/1PP2Rs2/N2+b1PGP+l/5S2L/2GK3N1 b P4p 73",
+    "correct_move": "2i1g",
+    "explanation": "2i1gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 259
+  },
+  {
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "拠点を除去せよ",
+    "sfen": "ln4bn1/P2s1sk2/4g3l/1Ppp3pp/3PPp2g/1S2pP1P1/G1P5P/L1K2S+pRL/BN5N1 b RPg2p 81",
+    "correct_move": "2h3h",
+    "explanation": "2h3hで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 260
+  },
+  {
+    "difficulty": "二段",
+    "category": "攻め",
+    "description": "好形を崩す一手",
+    "sfen": "ln2ks3/1rs1g4/1pp1pP2n/2Pp1gp1l/pP5+BP/3P2P2/1+n2PG1KN/B5S2/LSGR4L b 4Pp 75",
+    "correct_move": "9h8g",
+    "explanation": "9h8gで相手の攻め駒をタダで取れます。駒得して優位を拡大しましょう。",
+    "id": 261
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "完全包囲の詰み",
+    "sfen": "1n5+Ng/lrg3g1l/ppspppkp1/3s5/PPp1P2Pp/g7L/N2+bSP2+b/1K7/L5+rN1 w S5p 90",
+    "correct_move": "3i8i",
+    "explanation": "3iから8iへ指すと詰みになります。",
+    "id": 262
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "必勝の詰み",
+    "sfen": "1+P4gn1/2s1g2b1/1p1rp2pl/l1p1k1b1p/1N1p1ppPP/N1P1K4/1r2P+s2N/3G2+p1L/L3S1S2 w g4p 88",
+    "correct_move": "4e4f",
+    "explanation": "4eから4fへ指すと詰みになります。",
+    "id": 263
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "詰み筋を読め",
+    "sfen": "1n1k2s1l/3g5/lp2+Ppn1p/ps4ppP/2Pp1B1N1/PP1PS1K2/B3GP1P1/L2G2SRL/1N4P2 b RG2P 83",
+    "correct_move": "R*4a",
+    "explanation": "R*4aと飛を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 264
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "決め手の一手",
+    "sfen": "g4k1n1/1rs4s1/lp3+P+Bpl/P2pp4/pP1P3Pp/2Sg2Pn1/2P2SN1P/2K5R/L1G2GBNL b 4P 89",
+    "correct_move": "4c4b",
+    "explanation": "4cから4bへ指すと詰みになります。",
+    "id": 265
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "決め手の一手",
+    "sfen": "1n+N2ks1l/l6l1/sgppg1+r1+P/pg7/PN1+b1N1p1/1PP1P2b1/3PSP1PL/2G1p1R2/2SK2P2 w 4P 76",
+    "correct_move": "2f5i+",
+    "explanation": "2fから5iへ成指すと詰みになります。",
+    "id": 266
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "急所の一手",
+    "sfen": "ln1kg4/1P5s1/p1s1Bpngl/1p4ppp/P2pP1P2/2r2P1PP/N2P+b1S2/6r1L/L1SKG2N1 w Pg2p 72",
+    "correct_move": "7f7i",
+    "explanation": "7fから7iへ指すと詰みになります。",
+    "id": 267
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "詰み筋を読め",
+    "sfen": "1rsk3nb/7sl/lpnGG4/p1pp1G1Kp/5p3/P2P1PP1P/1P2PnGP1/2L1+b1SRL/4S2N1 b 3Pp 79",
+    "correct_move": "5c5b",
+    "explanation": "5cから5bへ指すと詰みになります。",
+    "id": 268
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "詰み筋を読め",
+    "sfen": "lns3kn1/4P2bl/r4P1pp/2p1S1ps1/Gp1p4P/P3g4/1PPP2PPN/L2SGK1RL/1NB6 b G3P 89",
+    "correct_move": "G*4b",
+    "explanation": "G*4bと金を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 269
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "詰み筋を読め",
+    "sfen": "1nsg4b/2kg2p2/1rp2s1pl/1pG2B3/l1P6/3P2P2/1P1S+p2PP/L3P2SR/1N1N1K1NL w 4Pg2p 88",
+    "correct_move": "G*4h",
+    "explanation": "G*4hと金を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 270
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "決め手の一手",
+    "sfen": "l4kbn1/r2+N4l/1p1+S1ppS1/p1p1p1s2/7pp/1PPpGg1P1/1G2P1P1P/L2S5/1NBK2RNL b G3p 87",
+    "correct_move": "6c5b",
+    "explanation": "6cから5bへ指すと詰みになります。",
+    "id": 271
+  },
+  {
+    "difficulty": "三段",
+    "category": "詰み",
+    "description": "必勝の詰み",
+    "sfen": "2r1s1g1l/l1k4b1/p1s1gg1pp/2P2+B3/7n1/P2p1PP1P/nP+pPsG1PL/L+n2P4/3K2SN1 w 4Pr 86",
+    "correct_move": "5g6h",
+    "explanation": "5gから6hへ指すと詰みになります。",
+    "id": 272
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "詰めろを発見",
+    "sfen": "1n1ggss1l/+P2r3p1/p2p2n2/6p1p/bp3pPPg/PPSkp2RP/LK2PP2L/3S1+b3/1N5N1 b L2Pg 73",
+    "correct_move": "2f5f",
+    "explanation": "2fから5fへ指すと詰みになります。",
+    "id": 273
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "完全包囲の詰み",
+    "sfen": "2s3k1l/l3g2bs/pg1p1bl1P/1P2ppPp1/9/2PPP4/P1+nS1PNP+n/+r7L/1N4RK1 w 4P2gs 90",
+    "correct_move": "1g2h",
+    "explanation": "1gから2hへ指すと詰みになります。",
+    "id": 274
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "詰めろを発見",
+    "sfen": "l1p1g3l/1sgrk2P1/ppn2ps2/n1g1pPPS1/P7p/8P/LP1pP1N1L/1RS6/1NK1+bG1B1 w 2P2p 76",
+    "correct_move": "6g6h+",
+    "explanation": "6gから6hへ成指すと詰みになります。",
+    "id": 275
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "詰み筋を読め",
+    "sfen": "1n1g1+Nbnl/l2s1R2r/2p1kps2/1p1pp1G1p/p3P4/2P3p2/P2PSP1+pP/4G4/LNSK1G2L b b3p 49",
+    "correct_move": "4b4c+",
+    "explanation": "4bから4cへ成指すと詰みになります。",
+    "id": 276
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "決め手の一手",
+    "sfen": "1nsk2s1b/b5g1l/L2G3p1/3pppP1p/7nP/1p1PS2P1/1P+p2PR1N/p2GGK3/1NS5L b RL4P 91",
+    "correct_move": "R*4a",
+    "explanation": "R*4aと飛を打てば詰みとなります。相手玉に逃げ場がありません。",
+    "id": 277
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "必勝の詰み",
+    "sfen": "l8/4rgs1l/np1pgpnp+b/n1s1p1p1p/p1pP5/1P2kP2P/L2R3PN/1BG1GK1S1/2S5L b 4p 87",
+    "correct_move": "5h5g",
+    "explanation": "5hから5gへ指すと詰みになります。",
+    "id": 278
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "王の逃げ場なし",
+    "sfen": "1n1s1pg1b/l8/4+B2pl/3pp1R1p/p1pPkn2P/P1r5L/NSG1P1NP1/L4GS2/2SK1PP2 b G3Pp 89",
+    "correct_move": "5c6d",
+    "explanation": "5cから6dへ指すと詰みになります。",
+    "id": 279
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "王の逃げ場なし",
+    "sfen": "1n5+P1/l1s2k3/p1gg3sl/2pp1pb1p/1r1P4P/2P2P2R/P+p2+p1GPN/LS3S1BL/1NK1G4 w NP3p 70",
+    "correct_move": "3d7h+",
+    "explanation": "3dから7hへ成指すと詰みになります。",
+    "id": 280
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "kp7/1R7/9/9/9/9/9/9/9 b G3g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば詰みです。歩が8一を塞ぎ、飛車が9二の金を守ります。",
+    "id": 281
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "kl7/1R7/9/9/9/9/9/9/9 b G3g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば詰みです。香が8一を塞ぎ、飛車が9二の金を守ります。",
+    "id": 282
+  },
+  {
+    "difficulty": "四段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "kr7/1R7/9/9/9/9/9/9/9 b G3g2s2n2l12p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打てば詰みです。飛が8一を塞ぎ、飛車が9二の金を守ります。",
+    "id": 283
+  },
+  {
     "difficulty": "五段",
-    "category": "守り",
-    "description": "高度な守り10",
-    "sfen": "lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B5R1/LNSGKGSNL b - 1",
-    "correct_move": "5i4h",
-    "explanation": "玉を4八に引いて守ります。"
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7pk/7R1/9/9/9/9/9/9/9 b G3g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば詰みです。歩が2一を塞ぎ、飛車が2二を守ります。",
+    "id": 284
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7lk/7R1/9/9/9/9/9/9/9 b G3g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば詰みです。香が2一を塞ぎ、飛車が2二を守ります。",
+    "id": 285
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：金打ちで詰める",
+    "sfen": "7rk/7R1/9/9/9/9/9/9/9 b G3g2s2n2l12p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打てば詰みです。飛が2一を塞ぎ、飛車が2二を守ります。",
+    "id": 286
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "kr7/9/P8/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*9b",
+    "explanation": "9二に飛車を打てば詰みです。飛車が9一と8二を一気に制します。",
+    "id": 287
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：飛車打ちで詰める",
+    "sfen": "7rk/9/8P/9/9/9/9/9/9 b R2g2s2n2l12p 30",
+    "correct_move": "R*1b",
+    "explanation": "1二に飛車を打てば詰みです。飛車が1一と2二を一気に制します。",
+    "id": 288
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "8k/9/8P/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*1b",
+    "explanation": "1二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 289
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "7k1/9/7P1/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*2b",
+    "explanation": "2二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 290
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "6k2/9/6P2/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*3b",
+    "explanation": "3二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 291
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "5k3/9/5P3/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*4b",
+    "explanation": "4二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 292
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "4k4/9/4P4/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*5b",
+    "explanation": "5二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 293
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "3k5/9/3P5/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*6b",
+    "explanation": "6二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 294
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "2k6/9/2P6/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*7b",
+    "explanation": "7二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 295
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "1k7/9/1P7/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*8b",
+    "explanation": "8二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 296
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：頭金で詰める",
+    "sfen": "k8/9/P8/9/9/9/9/9/9 b G2g2s2n2l10p 30",
+    "correct_move": "G*9b",
+    "explanation": "9二に金を打つ「頭金」の手筋で詰みです。",
+    "id": 297
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：銀打ちで詰める",
+    "sfen": "kp7/9/G8/9/9/9/9/9/9 b S2g2s2n2l10p 30",
+    "correct_move": "S*9b",
+    "explanation": "9二に銀を打てば詰みです。銀が9一を脅し、金が逃げ場を塞ぎます。",
+    "id": 298
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：銀打ちで詰める",
+    "sfen": "kl7/9/G8/9/9/9/9/9/9 b S2g2s2n2l10p 30",
+    "correct_move": "S*9b",
+    "explanation": "9二に銀を打てば詰みです。銀が9一を脅し、金が逃げ場を塞ぎます。",
+    "id": 299
+  },
+  {
+    "difficulty": "五段",
+    "category": "詰み",
+    "description": "1手詰み：銀打ちで詰める",
+    "sfen": "kr7/9/G8/9/9/9/9/9/9 b S2g2s2n2l10p 30",
+    "correct_move": "S*9b",
+    "explanation": "9二に銀を打てば詰みです。銀が9一を脅し、金が逃げ場を塞ぎます。",
+    "id": 300
   }
 ]
