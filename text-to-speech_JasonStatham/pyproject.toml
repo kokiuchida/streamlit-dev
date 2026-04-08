@@ -1,0 +1,22 @@
+[project]
+name = "text-to-speech-jasonstatham"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "scipy>=1.17.1",
+    "streamlit>=1.56.0",
+    "torch>=2.5,<2.6",
+    "torchaudio>=2.5,<2.6",
+    "transformers<4.45",
+    "tts>=0.22.0",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchaudio = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
