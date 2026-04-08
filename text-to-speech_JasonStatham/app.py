@@ -1,4 +1,7 @@
 import os
+
+os.environ["COQUI_TOS_AGREED"] = "1"
+
 import io
 import numpy as np
 import scipy.io.wavfile as wav
