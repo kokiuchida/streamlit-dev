@@ -110,7 +110,14 @@ if input_data is not None:
     speed = st.slider("音声スピード", min_value=0.5, max_value=2.0, value=1.1, step=0.1)
 
     st.markdown("### 音声合成")
+
+    if "model_loaded" not in st.session_state:
+        st.session_state.model_loaded = False
+
     if st.button("音声合成を開始"):
+        st.session_state.model_loaded = True
+
+    if st.session_state.model_loaded and input_data:
         with st.spinner("モデルをロード中...(初回は数分かかります)"):
             model, gpt_cond_latent, speaker_embedding = load_model()
         comment = st.empty()
@@ -126,3 +133,4 @@ if input_data is not None:
             )
         st.audio(audio_bytes, format="audio/wav")
         comment.write("完了しました")
+        st.session_state.model_loaded = False
