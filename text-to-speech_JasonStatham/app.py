@@ -6,7 +6,8 @@ import torch
 import streamlit as st
 from TTS.api import TTS
 
-VOICE_PROFILE_DIR = "voice_profile"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+VOICE_PROFILE_DIR = os.path.join(BASE_DIR, "voice_profile")
 
 
 @st.cache_resource
