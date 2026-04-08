@@ -2,12 +2,7 @@ import os
 
 os.environ["COQUI_TOS_AGREED"] = "1"
 
-import io
-import numpy as np
-import scipy.io.wavfile as wav
-import torch
 import streamlit as st
-from TTS.api import TTS
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 VOICE_PROFILE_DIR = os.path.join(BASE_DIR, "voice_profile")
@@ -16,6 +11,9 @@ VOICE_PROFILE_DIR = os.path.join(BASE_DIR, "voice_profile")
 @st.cache_resource
 def load_model():
     """XTTS v2 モデルと事前抽出済み話者特徴量をロード"""
+    import torch
+    from TTS.api import TTS
+
     tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2")
     model = tts.synthesizer.tts_model
 
@@ -52,6 +50,10 @@ def split_text(text, max_chars=250):
 
 def synthesize_speech(text, lang_code, model, gpt_cond_latent, speaker_embedding, speed=1.1):
     """テキストから音声を合成し、WAVバイトを返す。長文は自動分割する。"""
+    import io
+    import numpy as np
+    import scipy.io.wavfile as wav
+
     chunks = split_text(text)
     all_audio = []
 
