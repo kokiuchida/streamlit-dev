@@ -81,8 +81,6 @@ if not os.path.isdir(VOICE_PROFILE_DIR) or not os.listdir(VOICE_PROFILE_DIR):
     )
     st.stop()
 
-model, gpt_cond_latent, speaker_embedding = load_model()
-
 st.markdown("### データ準備")
 
 input_option = st.selectbox("入力データの選択", ("直接入力", "テキストファイル"))
@@ -111,6 +109,8 @@ if input_data is not None:
 
     st.markdown("### 音声合成")
     if st.button("音声合成を開始"):
+        with st.spinner("モデルをロード中...(初回は数分かかります)"):
+            model, gpt_cond_latent, speaker_embedding = load_model()
         comment = st.empty()
         comment.write("音声出力を開始します...")
         with st.spinner("生成中..."):
